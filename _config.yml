@@ -15,7 +15,7 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Research Memo
+  title: State-of-the-art Memo
   tagline: Research and Development
   date_format: "%b %-d, %Y"
   style: black
