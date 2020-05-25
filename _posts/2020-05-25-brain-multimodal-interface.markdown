@@ -4,6 +4,11 @@ title:  "Brain Multimodal Interface"
 date:   2020-05-25 21:38:36 +0900
 ---
 ## Neuroscience
+
+Guido T.Meije, Paul E.C.Mertens, Cyriel M.A.Pennartz, Umberto Olcese, Carien S.Lansinkab. The circuit architecture of cortical multisensory processing: Distinct functions jointly operating within a common anatomical network, 2019.
+<br>
+https://www.sciencedirect.com/science/article/pii/S0301008217302356
+
 Temporal window in auditory processing
 <br>
 Yulia Lerner, Christopher J Honey, Lauren J Silbert, Uri Hasson. Topographic Mapping of a Hierarchy of Temporal Receptive Windows Using a Narrated Story, 2011.
@@ -39,3 +44,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5513806
 https://www.youtube.com/watch?v=RXTizOtvsE8
 
 ## Technology
+
+Guohua Shen ,Tomoyasu Horikawa ,Kei Majima ,Yukiyasu Kamitani. Deep image reconstruction from human brain activity, 2019
+<br>
+https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1006633
