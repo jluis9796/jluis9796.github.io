@@ -13,14 +13,14 @@ Ryan A. Stevenson,Justin K. Siemann, Brittany C. Schneider, Haley E. Eberly, Tif
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3891950
 
 Deficit in visual temporal integration in autism
-Tamami Nakano, Haruhisa Ota, Nobumasa Kato, and Shigeru Kitazawa. Deficit in visual temporal integration in autism spectrum disorders, 2010
+Tamami Nakano, Haruhisa Ota, Nobumasa Kato, and Shigeru Kitazawa. Deficit in visual temporal integration in autism spectrum disorders, 2010.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2842756
 
 In noisy environments autistic individuals showed reduced benefit from seeing mouth movements while hearing auditory speech.
 yan A. Stevenson, Sarah H. Baum, Magali Segers, Susanne Ferber, Morgan D. Barense, and Mark T. Wallace. Multisensory speech perception in Autism Spectrum Disorder: From phoneme to whole-word perception, 2018.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5513806
 
-(video) Dynamic Causal Modelling - Karl Friston
+(video) Dynamic Causal Modelling - Karl Friston.
 https://www.youtube.com/watch?v=RXTizOtvsE8
 
 Technology
