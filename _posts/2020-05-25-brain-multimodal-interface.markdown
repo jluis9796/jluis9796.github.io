@@ -5,7 +5,7 @@ date:   2020-05-25 21:38:36 +0900
 ---
 Neuroscience
 Temporal window in auditory processing
-Yulia Lerner 1, Christopher J Honey, Lauren J Silbert, Uri Hasson. Topographic Mapping of a Hierarchy of Temporal Receptive Windows Using a Narrated Story, 2011.
+Yulia Lerner, Christopher J Honey, Lauren J Silbert, Uri Hasson. Topographic Mapping of a Hierarchy of Temporal Receptive Windows Using a Narrated Story, 2011.
 https://pubmed.ncbi.nlm.nih.gov/21414912
 
 Temporal window in visual processing
