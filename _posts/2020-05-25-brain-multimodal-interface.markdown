@@ -8,6 +8,7 @@ date:   2020-05-25 21:38:36 +0900
 **Circuit architecture of cortical multisensory processing**
 * Guido T.Meije, Paul E.C.Mertens, Cyriel M.A.Pennartz, Umberto Olcese, Carien S.Lansinkab. The circuit architecture of cortical multisensory processing: Distinct functions jointly operating within a common anatomical network, 2019.
 <a href="https://www.sciencedirect.com/science/article/pii/S0301008217302356" > (link) </a>
+* Marc O. Ernst & Martin S. Banks. Humans integrate visual and haptic information in a statistically optimal fashion. 2002.<a href="https://www.academia.edu/1842484/Humans_integrate_visual_and_haptic_information_in_a_statistically_optimal_fashion"> (link) </a>
 
 **Temporal window in auditory processing**
 * Yulia Lerner, Christopher J Honey, Lauren J Silbert, Uri Hasson. Topographic Mapping of a Hierarchy of Temporal Receptive Windows Using a Narrated Story, 2011.
