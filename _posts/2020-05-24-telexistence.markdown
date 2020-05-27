@@ -20,4 +20,4 @@ Charith Fernando, Genki Sano. Future of telexistence technology and its impact t
 Daisuke Kondo. Visual display system for teleoperation of construction machinery, 2018
 
 # Cloud crowdsourcing
-Russell C. Toris. Spatial and Temporal Learning in Robotic Pickand-Place Domains via Demonstrations and Observations, Phd thesis, 2016 <a href= https://digitalcommons.wpi.edu/cgi/viewcontent.cgi?article=1134&context=etd-dissertations> Link </a>
+Russell C. Toris. Spatial and Temporal Learning in Robotic Pickand-Place Domains via Demonstrations and Observations, Phd thesis, 2016 <a href= "https://digitalcommons.wpi.edu/cgi/viewcontent.cgi?article=1134&context=etd-dissertations" > Link </a>
