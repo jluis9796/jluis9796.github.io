@@ -15,7 +15,7 @@ Temporal window in auditory processing
 
 Temporal window in visual processing
 <br>
-* Uri Hasson, Eunice Yang, Ignacio Vallines, David J Heeger, Nava Rubin. A Hierarchy of Temporal Receptive Windows in Human Cortex, 2008. <a href="https://pubmed.ncbi.nlm.nih.gov/18322098> (link) </a>
+* Uri Hasson, Eunice Yang, Ignacio Vallines, David J Heeger, Nava Rubin. A Hierarchy of Temporal Receptive Windows in Human Cortex, 2008. <a href="https://pubmed.ncbi.nlm.nih.gov/18322098"> (link) </a>
 
 * Lars Penke, Susana Muñoz Maniega, Catherine Murray, Alan J. Gow, Maria C. Valdés Hernández, Jonathan D. Clayden, John M. Starr, Joanna M. Wardlaw, Mark E. Bastin and Ian J. Deary. A General Factor of Brain White Matter Integrity Predicts Information Processing Speed in Healthy Older People, 2010. <a href="https://www.jneurosci.org/content/30/22/7569"> (link) </a>
 
@@ -30,6 +30,7 @@ In noisy environments autistic individuals reduced benefit from seeing mouth mov
 * yan A. Stevenson, Sarah H. Baum, Magali Segers, Susanne Ferber, Morgan D. Barense, and Mark T. Wallace. Multisensory speech perception in Autism Spectrum Disorder: From phoneme to whole-word perception, 2018. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5513806"> (link) </a>
 
 (video) Dynamic Causal Modelling - Karl Friston.
+<br>
 https://www.youtube.com/watch?v=RXTizOtvsE8
 
 ## Technology
