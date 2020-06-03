@@ -4,8 +4,8 @@ title:  "Learning from demonstration"
 date:   2020-05-24 13:08:36 +0900
 ---
 # Theory
-* Saliency map calculation and applications <a href="https://www.jstage.jst.go.jp/article/jnns/21/1/21_3/_pdf/-char/ja">日本語</a>
-* Saliency map calculation <a href="https://www.tu-chemnitz.de/informatik/KI/scripts/ws0910/Attention_Saliency.pdf">English</a>
+* Saliency map calculation and applications <a href="https://www.jstage.jst.go.jp/article/jnns/21/1/21_3/_pdf/-char/ja">(日本語)</a>
+* Saliency map calculation <a href="https://www.tu-chemnitz.de/informatik/KI/scripts/ws0910/Attention_Saliency.pdf">(English)</a>
 
 # Computational model
 https://github.com/akisatok/pySaliencyMap/blob/master/pySaliencyMap.py
