@@ -11,7 +11,7 @@ date:   2020-05-24 13:08:36 +0900
 https://github.com/akisatok/pySaliencyMap/blob/master/pySaliencyMap.py
 
 * Color (RGB map) and Intensity (Gray map)
-* Gaber Filter <a href="http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_pyramids/py_pyramids.html"> Example </a>
+* Gabor Kernels & Gaussian Pyramid <a href="http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_pyramids/py_pyramids.html"> Example </a>
 * Taking center-surround differences of Gaussian Pyramid
 * Feature maps
 * Conspicuity maps
@@ -19,6 +19,6 @@ https://github.com/akisatok/pySaliencyMap/blob/master/pySaliencyMap.py
 * (Winner-take-all)
 
 **What is a steerable filter?** <a href="https://en.wikipedia.org/wiki/Steerable_filter"></a>
-* Galber filter <a href="https://en.wikipedia.org/wiki/Gabor_filter">(Wikipedia)</a><a href="https://zenodo.org/record/3430156#.XtbrlzozbIU">(Coding Facial Expressions with Gabor Wavelets)</a>
+* Gabor filter <a href="https://en.wikipedia.org/wiki/Gabor_filter">(Wikipedia)</a><a href="https://zenodo.org/record/3430156#.XtbrlzozbIU">(Coding Facial Expressions with Gabor Wavelets)</a>
 * Steerable Pyramid <a href="https://www.cns.nyu.edu/~eero/STEERPYR/"> </a>
 * Pyramid (Gaussian, Laplacian, Steerable) <a href="https://en.wikipedia.org/wiki/Pyramid_(image_processing)"> (Wikipedia)</a>
