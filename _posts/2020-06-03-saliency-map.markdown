@@ -20,5 +20,5 @@ https://github.com/akisatok/pySaliencyMap/blob/master/pySaliencyMap.py
 
 **What is a steerable filter?** <a href="https://en.wikipedia.org/wiki/Steerable_filter"></a>
 * Gabor filter <a href="https://en.wikipedia.org/wiki/Gabor_filter">(Wikipedia)</a><a href="https://zenodo.org/record/3430156#.XtbrlzozbIU">(Coding Facial Expressions with Gabor Wavelets)</a>
-* Steerable Pyramid <a href="https://www.cns.nyu.edu/~eero/STEERPYR/"> </a>
+* Steerable Pyramid <a href="https://www.cns.nyu.edu/~eero/STEERPYR/"> Link </a>
 * Pyramid (Gaussian, Laplacian, Steerable) <a href="https://en.wikipedia.org/wiki/Pyramid_(image_processing)"> (Wikipedia)</a>
