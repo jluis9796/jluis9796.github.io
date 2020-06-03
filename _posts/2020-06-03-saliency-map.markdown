@@ -12,7 +12,7 @@ https://github.com/akisatok/pySaliencyMap/blob/master/pySaliencyMap.py
 
 * Color (RGB map) and Intensity (Gray map)
 * Gaber Filter <a href="https://en.wikipedia.org/wiki/Gabor_filter">(Wikipedia)</a><a href="https://zenodo.org/record/3430156#.XtbrlzozbIU">(Coding Facial Expressions with Gabor Wavelets)</a>
-* Pyramid (Gaussian Pyramid) <a href="https://en.wikipedia.org/wiki/Pyramid_(image_processing)"> Wikipedia</a>
+* Pyramid (Gaussian Pyramid) <a href="https://en.wikipedia.org/wiki/Pyramid_(image_processing)"> (Wikipedia)</a>
 * Taking center-surround differences of Gaussian Pyramid
 * Feature maps
 * Conspicuity maps
