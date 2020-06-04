@@ -15,6 +15,8 @@ https://github.com/akisatok/pySaliencyMap/blob/master/pySaliencyMap.py
 * Taking center-surround differences of Gaussian Pyramid
 * Feature maps
 * Conspicuity maps
+* Weigthing
+* Bilateral Filter <a href="https://docs.opencv.org/3.0-last-rst/modules/imgproc/doc/filtering.html?highlight=laplacian#bilateralfilter">
 * Saliency map
 * (Winner-take-all)
 
@@ -22,3 +24,6 @@ https://github.com/akisatok/pySaliencyMap/blob/master/pySaliencyMap.py
 * Gabor filter <a href="https://en.wikipedia.org/wiki/Gabor_filter">(Wikipedia)</a><a href="https://zenodo.org/record/3430156#.XtbrlzozbIU">(Coding Facial Expressions with Gabor Wavelets)</a>
 * Steerable Pyramid <a href="https://www.cns.nyu.edu/~eero/STEERPYR/"> Link </a>
 * Pyramid (Gaussian, Laplacian, Steerable) <a href="https://en.wikipedia.org/wiki/Pyramid_(image_processing)"> (Wikipedia)</a>
+
+**Bilateral filtering** <a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MANDUCHI1/Bilateral_Filtering.html"></a>
+To prevent averaging across edges, while still averaging within smooth regions.
