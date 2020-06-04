@@ -17,6 +17,8 @@ https://github.com/akisatok/pySaliencyMap/blob/master/pySaliencyMap.py
 * Conspicuity maps
 * Weigthing
 * Bilateral Filter <a href="https://docs.opencv.org/3.0-last-rst/modules/imgproc/doc/filtering.html?highlight=laplacian#bilateralfilter">(link)</a>
+* Binarize
+* Grabcut <a href="https://qiita.com/marutaku0131/items/657c32358cfad7817648">(Link)</a>
 * Saliency map
 * (Winner-take-all)
 
