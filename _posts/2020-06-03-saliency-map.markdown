@@ -29,3 +29,6 @@ https://github.com/akisatok/pySaliencyMap/blob/master/pySaliencyMap.py
 
 **Bilateral filtering** <a href="http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MANDUCHI1/Bilateral_Filtering.html">(Link)</a>
 To prevent averaging across edges, while still averaging within smooth regions.
+
+**Grab Cut**
+マスクの設定値 cv2.GC_BGD:明らかに背景, cv2.GC_FGD:明らかに前景, cv2.GC_PR_BGD：背景かもしれない, cv2.GC_PR_FGD：前景かもしれない
