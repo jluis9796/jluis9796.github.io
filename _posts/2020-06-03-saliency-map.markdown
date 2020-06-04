@@ -11,7 +11,7 @@ date:   2020-05-24 13:08:36 +0900
 https://github.com/akisatok/pySaliencyMap/blob/master/pySaliencyMap.py
 
 * Color (RGB map) and Intensity (Gray map)
-* Gabor Kernels & Gaussian Pyramid <a href="http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_pyramids/py_pyramids.html"> Example </a>
+* Gabor Kernels & Gaussian Pyramid <a href="http://labs.eecs.tottori-u.ac.jp/sd/Member/oyamada/OpenCV/html/py_tutorials/py_imgproc/py_pyramids/py_pyramids.html"> (Example) </a>
 * Taking center-surround differences of Gaussian Pyramid
 * Feature maps
 * Conspicuity maps
