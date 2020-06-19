@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning from demonstration"
+title:  "Saliency Map"
 date:   2020-05-24 13:08:36 +0900
 ---
 # Theory
