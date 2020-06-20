@@ -3,8 +3,12 @@ layout: post
 title:  "Tools manuals"
 date:   2020-05-31 1:29:30 +0900
 ---
-# Git branching
+# Git
+## Branching
 https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+## List commit files
+git show --name-only --oneline HEAD
 
 # Flask: Webserver Backend
 https://dividable.net/python/flask-python/
