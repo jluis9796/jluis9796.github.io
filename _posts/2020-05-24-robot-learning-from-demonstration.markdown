@@ -5,6 +5,7 @@ date:   2020-05-24 13:08:36 +0900
 ---
 **Survey**
 * Harish Ravichandar, Athanasios S. Polydoros, Sonia Chernova, Aude Billard. Recent Advances in Robot Learning from Demonstration. Annual Review of Control, Robotics, and Autonomous Systems, 2020. <a href="http://rail.gatech.edu/assets/files/2019_LfD_Survey_preprint.pdf"> (link) </a>
+
 ```
 Surveys LfD => [1,2,3,4,7,9,10,11]
 Survey grasping => [12]
@@ -113,7 +114,6 @@ How to collect multi-modal demonstration without burdening the users with sensor
 Multiple demonstrators and cloud robotics
 Different demonstrators-> Different priorities of optimal behavior, Different levels of expertise
 IRL with different levels of expertise was shown to reach a richer reward function and structure than with single demonstrator or similar expertise demonstrators [214]
-
 
 ```
 
