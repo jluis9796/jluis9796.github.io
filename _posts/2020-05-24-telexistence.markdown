@@ -18,6 +18,13 @@ date:   2020-05-24 13:34:36 +0900
 MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body and re-engineering presence, 2018
 * Charith Fernando, Genki Sano. Future of telexistence technology and its impact to the society, 2018
 * Daisuke Kondo. Visual display system for teleoperation of construction machinery, 2018
+* Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018
 
 # Cloud crowdsourcing
 * Russell C. Toris. Spatial and Temporal Learning in Robotic Pickand-Place Domains via Demonstrations and Observations, Phd thesis, 2016 <a href= "https://digitalcommons.wpi.edu/cgi/viewcontent.cgi?article=1134&context=etd-dissertations" > (Link) </a>
+
+# Mobile phone endpoing
+* Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018
+
+# Transpacific teleoperation (China - California)
+* Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018
