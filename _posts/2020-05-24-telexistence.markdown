@@ -13,6 +13,9 @@ date:   2020-05-24 13:34:36 +0900
 # Scale conversion
 * Masahiro Furukawa. Scale conversion on telexistence, 2018
 
+# Grasping interfaces for teleoperation
+* David Kent, Carl, Saldanha, Sonia Chernova. A comparison of remote robot teleoperation interfaces for General object manipulation, 2017 (Free-positioning, Constrained-positioning,point-and-click)
+
 # Teleoperation Toolkits
 * Akira Fukabori, Kevin Kajitani. Ana Avatar, 2018
 MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body and re-engineering presence, 2018
