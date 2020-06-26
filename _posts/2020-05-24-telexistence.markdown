@@ -23,7 +23,7 @@ MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body 
 * Daisuke Kondo. Visual display system for teleoperation of construction machinery, 2018
 * Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018
 
-# Cloud crowdsourcing
+# Cloud crowdsourcing (virtual space)
 * Russell C. Toris. Spatial and Temporal Learning in Robotic Pickand-Place Domains via Demonstrations and Observations, Phd thesis, 2016 <a href= "https://digitalcommons.wpi.edu/cgi/viewcontent.cgi?article=1134&context=etd-dissertations" > (Link) </a>
 
 # Mobile phone endpoing
