@@ -16,6 +16,9 @@ date:   2020-05-24 13:34:36 +0900
 # Grasping interfaces for teleoperation
 * David Kent, Carl, Saldanha, Sonia Chernova. A comparison of remote robot teleoperation interfaces for General object manipulation, 2017 (Free-positioning, Constrained-positioning,point-and-click)
 
+# Learning to object manipulation through crowd-sourcing
+* Jaeyong Sung, Seok Hyun Jin, Ashutosh Saxena. Robobarista: Object part based transfer of manipulation trajectories from crowd-sourcing in 3d pointclouds, 2018.
+
 # Teleoperation Toolkits
 * Akira Fukabori, Kevin Kajitani. Ana Avatar, 2018
 MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body and re-engineering presence, 2018
