@@ -10,8 +10,12 @@ date:   2020-05-24 13:34:36 +0900
     <tr>
     Susumu Tachi. Recent Development of Telexistence, 2018
     </tr>
+    <tr>
+    Susumu Tachi. Recent Development of Telexistence, 2018
+    </tr>    
   </tbody>
 </table>
+
 # Haptics
 * Takahiro Nozaki, Satoshi Hangai. Telexistence and Real Haptics - Fusion of humans and machines opens a new avenue, 2018
 
