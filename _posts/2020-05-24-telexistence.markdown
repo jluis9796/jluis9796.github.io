@@ -64,17 +64,6 @@ MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body 
     </tr>
   </tfoot>
   <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
       <td>Charlie</td>
       <td>7</td>
       <td>9</td>
