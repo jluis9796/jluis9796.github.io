@@ -31,9 +31,24 @@ date:   2020-05-24 13:34:36 +0900
 
 # Teleoperation Toolkits
 <table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>25%</th>
+      <th>50%</th>
+      <th>75%</th>      
+      <th>99%</th>     
+      <th>Summary</th>     
+    </tr>
+  </thead>
   <tbody>
     <tr>
     <td>Akira Fukabori, Kevin Kajitani. Ana Avatar, 2018</td>
+    <td>●</td>
+    <td>●</td>
+    <td>●</td>
+    <td>●</td>
+    <td>Summary</td>
     </tr>
     <tr>
     <td>MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body and re-engineering presence, 2018</td>
