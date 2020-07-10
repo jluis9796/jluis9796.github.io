@@ -52,14 +52,11 @@ MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body 
   <thead>
     <tr>
       <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
     </tr>
   </thead>
   <tbody>
+    <tr>    
       <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
     </tr>
   </tbody>
 </table>
