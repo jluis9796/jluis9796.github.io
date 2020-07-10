@@ -56,13 +56,6 @@ MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body 
       <th>Downvotes</th>
     </tr>
   </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
   <tbody>
       <td>Charlie</td>
       <td>7</td>
