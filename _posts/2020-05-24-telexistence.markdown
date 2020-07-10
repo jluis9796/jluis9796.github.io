@@ -9,10 +9,10 @@ date:   2020-05-24 13:34:36 +0900
 <table>
   <tbody>
     <tr>
-    Susumu Tachi. Recent Development of Telexistence, 2018
+    <td>Susumu Tachi. Recent Development of Telexistence, 2018</td>
     </tr>
     <tr>
-    Susumu Tachi. Recent Development of Telexistence, 2018
+    <td>Susumu Tachi. Recent Development of Telexistence, 2018</td>
     </tr>    
   </tbody>
 </table>
