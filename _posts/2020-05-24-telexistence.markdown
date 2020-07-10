@@ -30,8 +30,28 @@ date:   2020-05-24 13:34:36 +0900
 * Jaeyong Sung, Seok Hyun Jin, Ashutosh Saxena. Robobarista: Object part based transfer of manipulation trajectories from crowd-sourcing in 3d pointclouds, 2018.
 
 # Teleoperation Toolkits
+<table>
+  <tbody>
+    <tr>
+    <td>Akira Fukabori, Kevin Kajitani. Ana Avatar, 2018</td>
+    </tr>
+    <tr>
+    <td>MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body and re-engineering presence, 2018</td>
+    </tr>
+    <tr>
+    <td>MHD Charith Fernando, Genki Sano. Future of telexistence technology and its impact to the society, 2018</td>
+    </tr>
+    <tr>
+    <td>Daisuke Kondo. Visual display system for teleoperation of construction machinery, 2018</td>
+    </tr>
+    <tr>
+    <td>Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018</td>
+    </tr>
+  </tbody>
+</table>
+
 * Akira Fukabori, Kevin Kajitani. Ana Avatar, 2018
-MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body and re-engineering presence, 2018
+* MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body and re-engineering presence, 2018
 * Charith Fernando, Genki Sano. Future of telexistence technology and its impact to the society, 2018
 * Daisuke Kondo. Visual display system for teleoperation of construction machinery, 2018
 * Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018
@@ -47,11 +67,3 @@ MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body 
 
 # Learning from teleoperation demonstrations
 * Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018
-
-<table>
-  <tbody>
-    <tr>    
-      <td>Charlie</td>
-    </tr>
-  </tbody>
-</table>
