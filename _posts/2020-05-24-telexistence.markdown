@@ -49,11 +49,6 @@ MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body 
 * Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018
 
 <table>
-  <thead>
-    <tr>
-      <th>Name</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>    
       <td>Charlie</td>
