@@ -52,15 +52,35 @@ date:   2020-05-24 13:34:36 +0900
     </tr>
     <tr>
     <td>MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body and re-engineering presence, 2018</td>
+    <td>●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Summary</td>
     </tr>
     <tr>
     <td>MHD Charith Fernando, Genki Sano. Future of telexistence technology and its impact to the society, 2018</td>
+    <td>●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Summary</td>
     </tr>
     <tr>
     <td>Daisuke Kondo. Visual display system for teleoperation of construction machinery, 2018</td>
+    <td>●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Summary</td>
     </tr>
     <tr>
     <td>Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018</td>
+    <td>●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Summary</td>
     </tr>
   </tbody>
 </table>
