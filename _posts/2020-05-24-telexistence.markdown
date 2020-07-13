@@ -34,8 +34,8 @@ date:   2020-05-24 13:34:36 +0900
   <thead>
     <tr>
       <th>Title</th>
-      <th>25%-99%</th>
-      <th># Haptics</th>
+      <th>25-50-75-99%</th>
+      <th>Tags</th>
       <th># Scale conversion</th>
       <th># Grasping interfaces</th>
       <th># Learning object manipulation through crowd-sourcing</th>
@@ -50,10 +50,10 @@ date:   2020-05-24 13:34:36 +0900
   <tbody>
     <tr>
     <td>Akira Fukabori, Kevin Kajitani. Ana Avatar, 2018</td>
-    <td>●</td>
-    <td>●</td>
-    <td>●</td>
-    <td>●</td>
+    <td>●●●●</td>
+    <td>#Toolkits</td>
+    <td></td>
+    <td></td>
     <td>Summary</td>
     </tr>
     <tr>
