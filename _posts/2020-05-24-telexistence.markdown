@@ -37,6 +37,7 @@ date:   2020-05-24 13:34:36 +0900
       <th>25%</th>
       <th>50%</th>
       <th>75%</th>
+      <th>99%</th>
       <th>Tags</th>
       <th>Summary</th>
     </tr>
@@ -45,9 +46,10 @@ date:   2020-05-24 13:34:36 +0900
     <tr>
     <td>Akira Fukabori, Kevin Kajitani. Ana Avatar, 2018</td>
     <td>●●●●</td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>#Toolkits</td>
-    <td></td>
-    <td></td>
     <td>Summary</td>
     </tr>
     <tr>
@@ -56,6 +58,7 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td></td>
+    <td>#Toolkits</td>
     <td>Summary</td>
     </tr>
     <tr>
@@ -64,6 +67,7 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td></td>
+    <td>#Toolkits</td>
     <td>Summary</td>
     </tr>
     <tr>
@@ -72,6 +76,7 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td></td>
+    <td>#Toolkits</td>
     <td>Summary</td>
     </tr>
     <tr>
@@ -80,6 +85,7 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td></td>
+    <td>#Toolkits</td>
     <td>Summary</td>
     </tr>
   </tbody>
