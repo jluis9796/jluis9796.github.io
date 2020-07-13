@@ -44,6 +44,52 @@ date:   2020-05-24 13:34:36 +0900
   </thead>
   <tbody>
     <tr>
+    <td>Susumu Tachi. Recent Development of Telexistence, 2018</td>
+    <td>●●●●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>#Survey</td>
+    <td>Summary</td>
+    </tr>
+    <tr>
+    <tr>
+    <td>Takahiro Nozaki, Satoshi Hangai. Telexistence and Real Haptics - Fusion of humans and machines opens a new avenue, 2018</td>
+    <td>●●●●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>#Haptics</td>
+    <td>Summary</td>
+    </tr>
+    <tr>
+    <td>Masahiro Furukawa. Scale conversion on telexistence, 2018</td>
+    <td>●●●●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>#Scale conversion</td>
+    <td>Summary</td>
+    </tr>
+    <tr>
+    <td>David Kent, Carl, Saldanha, Sonia Chernova. A comparison of remote robot teleoperation interfaces for General object manipulation, 2017</td>
+    <td>●●●●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>#Grasping interfaces for teleoperation</td>
+    <td>(Free-positioning, Constrained-positioning,point-and-click)</td>
+    </tr>
+    <tr>
+    <td>Jaeyong Sung, Seok Hyun Jin, Ashutosh Saxena. Robobarista: Object part based transfer of manipulation trajectories from crowd-sourcing in 3d pointclouds, 2018.</td>
+    <td>●●●●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>#Learning object manipulation through crowd-sourcing</td>
+    <td>Summary</td>
+    </tr>
+    <tr>
     <td>Akira Fukabori, Kevin Kajitani. Ana Avatar, 2018</td>
     <td>●●●●</td>
     <td></td>
