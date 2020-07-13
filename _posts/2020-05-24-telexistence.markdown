@@ -36,14 +36,6 @@ date:   2020-05-24 13:34:36 +0900
       <th>Title</th>
       <th>25-50-75-99%</th>
       <th>Tags</th>
-      <th># Scale conversion</th>
-      <th># Grasping interfaces</th>
-      <th># Learning object manipulation through crowd-sourcing</th>
-      <th># Teleoperation Toolkits</th>
-      <th># Cloud crowdsourcing</th>
-      <th># Mobile phone endpoing</th>
-      <th># Transpacific teleoperation (China - California)</th>
-      <th># Learning from teleoperation demonstrations</th>
       <th>Summary</th>
     </tr>
   </thead>
