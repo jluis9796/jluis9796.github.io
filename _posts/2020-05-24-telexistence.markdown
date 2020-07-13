@@ -34,8 +34,8 @@ date:   2020-05-24 13:34:36 +0900
   <thead>
     <tr>
       <th>Title</th>
-      <th>25%</th>
-      <th>50%</th>
+      <th>25%-99%</th>
+      <th># Haptics</th>
       <th>75%</th>      
       <th>99%</th>     
       <th>Summary</th>     
