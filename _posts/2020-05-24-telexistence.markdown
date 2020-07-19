@@ -4,31 +4,6 @@ title:  "Telexistence"
 date:   2020-05-24 13:34:36 +0900
 ---
 
-# Survey
-
-<table>
-  <tbody>
-    <tr>
-    <td>Susumu Tachi. Recent Development of Telexistence, 2018</td>
-    </tr>
-    <tr>
-    <td>Susumu Tachi. Recent Development of Telexistence, 2018</td>
-    </tr>    
-  </tbody>
-</table>
-
-# Haptics
-* Takahiro Nozaki, Satoshi Hangai. Telexistence and Real Haptics - Fusion of humans and machines opens a new avenue, 2018
-
-# Scale conversion
-* Masahiro Furukawa. Scale conversion on telexistence, 2018
-
-# Grasping interfaces for teleoperation
-* David Kent, Carl, Saldanha, Sonia Chernova. A comparison of remote robot teleoperation interfaces for General object manipulation, 2017 (Free-positioning, Constrained-positioning,point-and-click)
-
-# Learning object manipulation through crowd-sourcing
-* Jaeyong Sung, Seok Hyun Jin, Ashutosh Saxena. Robobarista: Object part based transfer of manipulation trajectories from crowd-sourcing in 3d pointclouds, 2018.
-
 # Teleoperation Toolkits
 <table>
   <thead>
@@ -134,17 +109,24 @@ date:   2020-05-24 13:34:36 +0900
     <td>#Toolkits</td>
     <td>Summary</td>
     </tr>
+    <tr>
+    <td>Russell C. Toris. Spatial and Temporal Learning in Robotic Pickand-Place Domains via Demonstrations and Observations, Phd thesis, 2016 <a href= "https://digitalcommons.wpi.edu/cgi/viewcontent.cgi?article=1134&context=etd-dissertations" > (Link) </a></td>
+    <td>●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>#Cloud crowdsourcing</td>
+    <td>Summary</td>
+    </tr>
+    <tr>
+    <td>Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018</td>
+    <td>●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>#Mobile phone endpoing #Transpacific teleoperation (China - California) #Learning from teleoperation demonstration </td>
+    <td>Summary</td>
+    </tr>
   </tbody>
 </table>
 
-# Cloud crowdsourcing (virtual space)
-* Russell C. Toris. Spatial and Temporal Learning in Robotic Pickand-Place Domains via Demonstrations and Observations, Phd thesis, 2016 <a href= "https://digitalcommons.wpi.edu/cgi/viewcontent.cgi?article=1134&context=etd-dissertations" > (Link) </a>
-
-# Mobile phone endpoing
-* Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018
-
-# Transpacific teleoperation (China - California)
-* Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018
-
-# Learning from teleoperation demonstrations
-* Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018
