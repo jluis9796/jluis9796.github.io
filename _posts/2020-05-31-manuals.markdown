@@ -41,13 +41,16 @@ https://www.androidauthority.com/enable-developer-options-569223/
 ## ERROR: Failed to install the following Android SDK packages as some licences have not been accepted.
 https://qiita.com/yamahei/items/499ef3d39b275b108ffe
 
+## ERROR: Failed to recognize Japanese characthers in Android Studio
+https://qiita.com/watanaby0/items/bc2459e03c81a4b708c7
+
 ## Develop ROS app for Android
 https://qiita.com/goodclues/items/40f7bf52fb74fa13190c
 Modification:
 Use this link for build.gradle (Top Level)
 https://raw.githubusercontent.com/rosjava/android_core/kinetic/buildscript.gradle
 
-Add this libraries in build.gradle (app)
+Add this libraries in build.gradle (app) to solve errors, as suggested here (https://github.com/rosjava/android_core/issues/300)
 
 
 Create Talker class with this code and import it in MainActivity.java
