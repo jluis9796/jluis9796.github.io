@@ -21,7 +21,9 @@ https://gist.github.com/dergachev/7028596
 
 ## How to generate web SSL certificates
 Just run the command below in your target directory (usually /etc/ssl/)
-openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
+```bash
+$ openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
+```
 
 # Webserver Frontend
 ## Use Media input: navigator.mediaDevices.getUserMedia(constraints);
