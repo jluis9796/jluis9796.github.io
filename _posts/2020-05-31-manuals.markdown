@@ -8,6 +8,40 @@ date:   2020-05-31 1:29:30 +0900
 https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 https://qiita.com/seri1234/items/e651b3e108a695a92809
 
+## Basic explanation about branching in GIT
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+## Create new branch
+$ git branch issue_1
+
+## Move to branch (shift files)
+$ git checkout issue_1
+
+## Check status
+$ git status
+
+## Add files to commit
+$ git add main.html
+$ git add webui.js
+
+## Check status
+$ git status
+
+## Commit files to local repository
+$ git commit -m "Devel: #1 Add video player for self camera"
+
+## Check status
+$ git status
+
+## Commit files to remote repository
+$ git push origin issue_1
+
+## Move to branch
+$ git checkout master
+
+## Show difference between current files and last commit
+$ git diff @^
+
 ## List commit files
 git show --name-only --oneline HEAD
 
