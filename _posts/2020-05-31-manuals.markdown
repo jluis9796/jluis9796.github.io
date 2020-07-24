@@ -6,12 +6,22 @@ date:   2020-05-31 1:29:30 +0900
 # Git
 ## Branching
 https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+https://qiita.com/seri1234/items/e651b3e108a695a92809
 
 ## List commit files
 git show --name-only --oneline HEAD
 
-# Flask: Webserver Backend
+# Webserver Backend
+## Flask
 https://dividable.net/python/flask-python/
+
+## HTTPS (SSL) "Server" using Python 3
+https://gist.github.com/gnilchee/da85b495d4e932da91a3
+
+## Webserver Frontend
+# Use Media input: navigator.mediaDevices.getUserMedia(constraints);
+https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
+https://qiita.com/massie_g/items/ecfc16018210441051b4
 
 # Tools
 ## X11VNC
