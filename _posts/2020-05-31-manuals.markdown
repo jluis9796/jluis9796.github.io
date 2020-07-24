@@ -194,6 +194,17 @@ $ sudo systemctl enable roslaunch.service
 $ sudo chmod +x /usr/sbin/roslaunch
 ```
 
+# OpenCV
+## Main guide to Install OpenCV
+https://qiita.com/takahiro_itazuri/items/a67dd3bb7f5f88ca9dd8
+
+## Main guide to Uninstall old OpenCV
+http://www.srccodes.com/p/article/56/uninstall-remove-opencv-raspberry-pi-jessie-debain-make-uninstall-open-source-computer-vision-opencvlib
+
+## Other references
+https://pimylifeup.com/raspberry-pi-opencv/
+https://qiita.com/satsukiya/items/02ab5215404c61d90114
+
 # Webserver Backend
 ## Flask
 https://dividable.net/python/flask-python/
