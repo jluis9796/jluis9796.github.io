@@ -30,6 +30,9 @@ https://homemadegarbage.com/mac-raspi3-x11vnc
 ## TightVNC (Disadvantage: You cannot access the actual home screen but you get a new screen)
 https://homemadegarbage.com/mac-raspi3-vnc
 
+## Touch-screen keyboard "Matchbox-keyboard": Failed to recognize characters
+https://ssiscirine.moe.hm/?p=26202
+
 # Android App: Android Studio & ROS
 
 ## A guide to Android app development for complete beginners
@@ -37,6 +40,7 @@ https://www.androidauthority.com/android-app-development-1128595/
 
 ## How to enable Developer Options on your Android device
 https://www.androidauthority.com/enable-developer-options-569223/
+https://forum.xda-developers.com/huawei-p20-pro/help/usb-debugging-t3780673
 
 ## ERROR: Failed to install the following Android SDK packages as some licences have not been accepted.
 https://qiita.com/yamahei/items/499ef3d39b275b108ffe
