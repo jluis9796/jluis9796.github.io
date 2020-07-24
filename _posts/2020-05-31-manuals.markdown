@@ -48,8 +48,8 @@ https://raw.githubusercontent.com/rosjava/android_core/kinetic/buildscript.gradl
 Add this libraries in build.gradle (app) to solve errors, as suggested here (https://github.com/rosjava/android_core/issues/300)
 ```android
 implementation 'org.ros.android_core:android_core_components:0.4.0'
-**    implementation 'org.ros.rosjava_messages:std_msgs:0.5.11'
-**    implementation 'org.ros.rosjava_bootstrap:message_generation:[0.3, 0.4)'
+implementation 'org.ros.rosjava_messages:std_msgs:0.5.11'
+implementation 'org.ros.rosjava_bootstrap:message_generation:[0.3, 0.4)'
 ```
 
 Create Talker class with this code and import it in MainActivity.java
