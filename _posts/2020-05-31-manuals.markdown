@@ -17,6 +17,7 @@ https://dividable.net/python/flask-python/
 
 ## HTTPS (SSL) "Server" using Python 3
 https://gist.github.com/gnilchee/da85b495d4e932da91a3
+https://gist.github.com/dergachev/7028596
 
 # Webserver Frontend
 ## Use Media input: navigator.mediaDevices.getUserMedia(constraints);
