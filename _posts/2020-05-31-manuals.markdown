@@ -23,16 +23,6 @@ https://gist.github.com/gnilchee/da85b495d4e932da91a3
 https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
 https://qiita.com/massie_g/items/ecfc16018210441051b4
 
-# Tools
-## X11VNC
-https://homemadegarbage.com/mac-raspi3-x11vnc
-
-## TightVNC (Disadvantage: You cannot access the actual home screen but you get a new screen)
-https://homemadegarbage.com/mac-raspi3-vnc
-
-## Touch-screen keyboard "Matchbox-keyboard": Failed to recognize characters
-https://ssiscirine.moe.hm/?p=26202
-
 # Android App: Android Studio & ROS
 
 ## A guide to Android app development for complete beginners
@@ -59,3 +49,13 @@ Add this libraries in build.gradle (app) to solve errors, as suggested here (htt
 
 Create Talker class with this code and import it in MainActivity.java
 http://docs.ros.org/hydro/api/rosjava_core/html/Talker_8java_source.html
+
+# Tools
+## X11VNC
+https://homemadegarbage.com/mac-raspi3-x11vnc
+
+## TightVNC (Disadvantage: You cannot access the actual home screen but you get a new screen)
+https://homemadegarbage.com/mac-raspi3-vnc
+
+## Touch-screen keyboard "Matchbox-keyboard": Failed to recognize characters
+https://ssiscirine.moe.hm/?p=26202
