@@ -11,39 +11,61 @@ https://qiita.com/seri1234/items/e651b3e108a695a92809
 ## Basic explanation about branching in GIT
 https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
-## Create new branch
+## Basic commands
+Create new branch
+```
 $ git branch issue_1
-
-## Move to branch (shift files)
+```
+Move to branch (shift files)
+```
 $ git checkout issue_1
+```
 
-## Check status
+Check status
+```
 $ git status
+```
 
-## Add files to commit
+Add files to commit
+```
 $ git add main.html
 $ git add webui.js
+```
 
-## Check status
+Check status
+```
 $ git status
+```
 
-## Commit files to local repository
+Commit files to local repository
+```
 $ git commit -m "Devel: #1 Add video player for self camera"
+```
 
-## Check status
+Check status
+```
 $ git status
+```
 
-## Commit files to remote repository
+```
+Commit files to remote repository
 $ git push origin issue_1
+```
 
-## Move to branch
+Move to branch
+```
 $ git checkout master
+```
 
-## Show difference between current files and last commit
+Show difference between current files and last commit
+```
 $ git diff @^
+```
 
-## List commit files
-git show --name-only --oneline HEAD
+List commit files
+```
+$ git show --name-only --oneline HEAD
+```
 
 # Webserver Backend
 ## Flask
@@ -55,7 +77,7 @@ https://gist.github.com/dergachev/7028596
 
 ## How to generate web SSL certificates
 Just run the command below in your target directory (usually /etc/ssl/)
-```bash
+```
 $ openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
 ```
 
@@ -86,7 +108,7 @@ Use this link for build.gradle (Top Level)
 https://raw.githubusercontent.com/rosjava/android_core/kinetic/buildscript.gradle
 
 Add this libraries in build.gradle (app) to solve errors, as suggested here (https://github.com/rosjava/android_core/issues/300)
-```android
+```
 implementation 'org.ros.android_core:android_core_components:0.4.0'
 implementation 'org.ros.rosjava_messages:std_msgs:0.5.11'
 implementation 'org.ros.rosjava_bootstrap:message_generation:[0.3, 0.4)'
