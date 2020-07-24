@@ -317,6 +317,15 @@ https://qiita.com/yamahei/items/499ef3d39b275b108ffe
 ## ERROR: Failed to recognize Japanese characthers in Android Studio
 https://qiita.com/watanaby0/items/bc2459e03c81a4b708c7
 
+## Change applicationid (name and company domain)
+https://www.thecodecity.com/2016/08/how-to-change-complete-package-company-domain-android.html
+
+## Change app name
+Modify the rootProject.name in settings.bundle, and also res/values/strings.xml
+
+## Change app icon
+https://www.andruni.com/app-name-icon-android/
+
 ## Develop ROS app for Android
 https://qiita.com/goodclues/items/40f7bf52fb74fa13190c
 Modification:
