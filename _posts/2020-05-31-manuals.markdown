@@ -19,6 +19,10 @@ https://dividable.net/python/flask-python/
 https://gist.github.com/gnilchee/da85b495d4e932da91a3
 https://gist.github.com/dergachev/7028596
 
+## How to generate web SSL certificates
+Just run the command below in your target directory (usually /etc/ssl/)
+openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
+
 # Webserver Frontend
 ## Use Media input: navigator.mediaDevices.getUserMedia(constraints);
 https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
