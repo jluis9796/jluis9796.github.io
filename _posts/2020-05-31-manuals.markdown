@@ -67,6 +67,89 @@ List commit files
 $ git show --name-only --oneline HEAD
 ```
 
+# ROS
+
+## ROS Robotics By Example (Including ROS installation)
+https://subscription.packtpub.com/book/hardware_and_creative/9781782175193/1
+
+## Installing ROS
+http://wiki.ros.org/Installation/Source
+https://neverbenever.wordpress.com/2017/12/20/install-ros-and-opencv-in-raspberry-piraspbian-stretch/
+https://asukiaaa.blogspot.com/2018/06/raspberry-pi-raspbianstretchrosmelodic.html
+
+## Installing ROS with own C++ package
+https://camp.isaax.io/ja/tips-ja/raspberrypi3-ros-melodic-morenia#pubsub
+
+## Robot server-client application (1- Simple motors 2- Husarion Robot)
+https://qiita.com/mylabosango/items/944c04100a1ff5edeed8
+https://medium.com/husarion-blog/bootstrap-4-ros-creating-a-web-ui-for-your-robot-9a77a8e373f9
+
+## Create own URDF file (robot model)
+http://wiki.ros.org/urdf/Tutorials
+
+## ROSBRIDGE with webserver and ROSLIBJS (Last two includes chat example)
+https://github.com/ryuichiueda/robosys2017/blob/master/13.md
+http://wiki.ros.org/roslibjs/Tutorials/BasicRosFunctionality
+https://qiita.com/srs/items/d3ec9962f7814d7b16f5
+https://qiita.com/yoneken/items/7e45ad3fcf8010ed98ed
+
+## Installation steps
+Create root folder and source folder
+```
+$ sudo mkdir -p /amidachi/catkin_ws/src
+$ cd catkin_ws/src/
+```
+Add ros repository and install catkin tools
+```
+$ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -sc` main" > /etc/apt/sources.list.d/ros-latest.list'
+$ wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
+$ sudo apt-get update
+####$ sudo apt-get install python-catkin-tools
+ ```
+
+Install ros libraries
+```
+$ sudo apt install -y python-rosdep python-rosinstall-generator python-wstool python-rosinstall python-empy build-essential cmake
+```
+
+Initialize rosdep
+```
+$ sudo rosdep init
+$ rosdep update
+```
+
+Increase swap memory before installing
+```
+$ sudo vim /etc/dphys-swapfile
+$ sudo /etc/init.d/dphys-swapfile stop
+$ sudo /etc/init.d/dphys-swapfile start
+```
+
+Generate file with a list of libraries, download libraries in src, and resolve their dependencies.
+```
+$ sudo rosinstall_generator desktop --rosdistro melodic --deps --tar > ~/melodic-desktop
+$ sudo mv ~/melodic-desktop /amidachi/catkin_ws/melodic-desktop.rosinstall
+$ cd /amidachi/catkin_ws/
+$ sudo wstool init -j2 src melodic-desktop.rosinstall
+$ rosdep install --from-paths src --ignore-src --rosdistro melodic -y
+```
+
+Download rosbridge_suite (which includes rosbridge_server) and rosauth, and resolve dependencies.
+```
+$ cd src/
+$ sudo git clone https://github.com/RobotWebTools/rosbridge_suite.git
+$ sudo git clone https://github.com/GT-RAIL/rosauth.git
+$ cd ..
+$ rosdep install --from-paths src --ignore-src --rosdistro melodic -r -y
+```
+
+Build the libraries and run the server to check it works
+```
+$ sudo ./src/catkin/bin/catkin_make_isolated -j1 --install --source src -DCMAKE_BUILD_TYPE=Release
+$ source devel_isolated/setup.bash
+$ roslaunch robot_gui_bridge websocket.launch
+```
+
 # Webserver Backend
 ## Flask
 https://dividable.net/python/flask-python/
