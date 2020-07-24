@@ -215,6 +215,7 @@ https://qiita.com/massie_g/items/ecfc16018210441051b4
 
 # OpenVPN
 https://github.com/Nishida-Lab/TC2015/wiki/OpenVPN_ROS
+https://www.atmarkit.co.jp/flinux/special/openvpn/openvpnc.html
 
 ```
 $ sudo apt update
@@ -224,6 +225,7 @@ $ ls /usr/share/doc/openvpn/examples/sample-config-files/server.conf.gz
 $ sudo gunzip -c /usr/share/doc/openvpn/examples/sample-config-files/server.conf.gz > ~/server.conf
 $ sudo mv server.conf /etc/openvpn/
 ```
+
 Configure basic settings in server.conf and enable ip4 forwarding in sysctl.conf
 ```
 $ sudo vim /etc/openvpn/server.conf
