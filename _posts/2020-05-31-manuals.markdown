@@ -29,3 +29,11 @@ https://homemadegarbage.com/mac-raspi3-x11vnc
 
 ## TightVNC (Disadvantage: You cannot access the actual home screen but you get a new screen)
 https://homemadegarbage.com/mac-raspi3-vnc
+
+# Android App
+
+## A guide to Android app development for complete beginners
+https://www.androidauthority.com/android-app-development-1128595/
+
+## How to enable Developer Options on your Android device
+https://www.androidauthority.com/enable-developer-options-569223/
