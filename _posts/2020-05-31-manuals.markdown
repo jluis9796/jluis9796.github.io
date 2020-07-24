@@ -118,7 +118,7 @@ $ sudo rosdep init
 $ rosdep update
 ```
 
-Increase swap memory before installing
+Increase swap memory before installing (I increased to 500Mb)
 ```
 $ sudo vim /etc/dphys-swapfile
 $ sudo /etc/init.d/dphys-swapfile stop
@@ -177,17 +177,22 @@ When file are correctly included and built, they should be listed in this file
 $ vim build_isolated/robot_gui_bridge/install_manifest.txt
 ```
 
--- How to startup at boot --
+## How to startup at boot
 https://blog.roverrobotics.com/how-to-run-ros-on-startup-bootup/
 
-/etc/systemd/system/roscore.service
-/etc/r[2;3Rv.sh
-/etc/systemd/system/roslaunch.service
-/usr/sbin/roslaunch
-
+Configure the settings of the services to run
+```
+vim /etc/systemd/system/roscore.service
+vim /etc/ros/env.sh
+vim /etc/systemd/system/roslaunch.service
+vim /usr/sbin/roslaunch
+```
+Enable the service
+```
 $ sudo systemctl enable roscore.service
 $ sudo systemctl enable roslaunch.service
 $ sudo chmod +x /usr/sbin/roslaunch
+```
 
 # Webserver Backend
 ## Flask
