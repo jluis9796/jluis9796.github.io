@@ -213,6 +213,77 @@ $ openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out
 https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
 https://qiita.com/massie_g/items/ecfc16018210441051b4
 
+# OpenVPN
+https://github.com/Nishida-Lab/TC2015/wiki/OpenVPN_ROS
+
+```
+$ sudo apt upgrade
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt install openvpn
+$ ls /usr/share/doc/openvpn/examples/sample-config-files/server.conf.gz
+$ sudo gunzip -c /usr/share/doc/openvpn/examples/sample-config-files/server.conf.gz > ~/server.conf
+$ mv server.conf /etc/openvpn/
+$ sudo mv server.conf /etc/openvpn/
+$ sudo vim /etc/openvpn/server.conf
+$ vim /etc/sysctl.conf
+$ sudo vim /etc/sysctl.conf
+$ echo 1 > /proc/sys/net/ipv4/ip_forward
+$ echo 1 > /proc/sys/net/ipv4/ip_forward
+$ ls /etc/openvpn/
+$ cp -r /usr/share/easy-rsa/ /etc/openvpn
+$ sudo cp -r /usr/share/easy-rsa/ /etc/openvpn
+
+$ ls /etc/openvpn/easy-rsa/
+$ mkdir /etc/openvpn/easy-rsa/keys
+$ sudo mkdir /etc/openvpn/easy-rsa/keys
+$ vim /etc/openvpn/easy-rsa/vars
+$ vim /etc/openvpn/easy-rsa/whichopensslcnf
+
+$ sudo vim /etc/openvpn/server.conf
+$ cd /etc/openvpn/
+$ cd easy-rsa/
+$ sudo openssl dhparam -out /etc/openvpn/dh2048.pem 2048
+$ cd /etc/openvpn/easy-rsa
+
+$ source ./vars
+
+$ sudo su -
+
+```
+
+```
+./clean-all
+cp /usr/share/doc/openvpn/examples/sample-keys/sample-ca/index.txt.attr keys/
+./build-ca
+./build-key-server server
+openvpn --genkey --secret /etc/openvpn/ta.key
+
+echo '<tls-auth>' >> /etc/openvpn/easy-rsa/keys/client.ovpn
+cat /etc/openvpn/ta.key >> /etc/openvpn/easy-rsa/keys/client.ovpn
+ echo '</tls-auth>' >> /etc/openvpn/easy-rsa/keys/client.ovpn
+ echo '<ca>' >> /etc/openvpn/easy-rsa/keys/client.ovpn
+ cat /etc/openvpn/ca.crt >> /etc/openvpn/easy-rsa/keys/client.ovpn
+ echo '</ca>' >> /etc/openvpn/easy-rsa/keys/client.ovpn
+ echo '<cert>' >> /etc/openvpn/easy-rsa/keys/client.ovpn
+ cat /etc/openvpn/easy-rsa/keys/client1.crt >> /etc/openvpn/easy-rsa/keys/client.ovpn
+ echo '</cert>' >> /etc/openvpn/easy-rsa/keys/client.ovpn
+echo '<key>' >> /etc/openvpn/easy-rsa/keys/client.ovpn
+ cat /etc/openvpn/easy-rsa/keys/client1.key >> /etc/openvpn/easy-rsa/keys/client.ovpn
+ echo '</key>' >> /etc/openvpn/easy-rsa/keys/client.ovpn
+ vim client.ovpn
+
+ 1981  vim client.ovpn
+ 1982  ls /var/log/openvpn.log
+ 1983  tail -f /var/log/openvpn.log
+ 1984  sudo tail -f /var/log/openvpn.log
+ 1985  sudo tail -f /var/log/openvpn-status.log
+ 1986  sudo tail -f /var/log/openvpn.log
+
+  186  source vars
+  187  ./build-key client-papa
+```
+
 # Android App: Android Studio & ROS
 
 ## A guide to Android app development for complete beginners
