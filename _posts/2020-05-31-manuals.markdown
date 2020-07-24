@@ -150,6 +150,45 @@ $ source devel_isolated/setup.bash
 $ roslaunch robot_gui_bridge websocket.launch
 ```
 
+Create own package "robot_gui_bridge", add the package files and include the files in CMakeLists.txt
+```
+$ sudo catkin_create_pkg robot_gui_bridge rosbridge_server --rosdistro melodic
+$ cd robot_gui_bridge/
+$ sudo mkdir launch
+$ sudo touch launch/websocket.launch
+$ sudo vim launch/websocket.launch
+$ sudo mkdir scripts
+$ sudo vim scripts/webserver.py
+$ sudo vim scripts/gui.html
+$ sudo chmod 755 CMakeLists.txt
+$ sudo vim CMakeLists.txt
+$ sudo chmod 644 CMakeLists.txt
+```
+
+Build again the libraries and run the server to check it works
+```
+$ sudo ./src/catkin/bin/catkin_make_isolated -j1 --install --source src -DCMAKE_BUILD_TYPE=Release
+$ source devel_isolated/setup.bash
+$ roslaunch robot_gui_bridge websocket.launch
+```
+
+When file are correctly included and built, they should be listed in this file
+```
+$ vim build_isolated/robot_gui_bridge/install_manifest.txt
+```
+
+-- How to startup at boot --
+https://blog.roverrobotics.com/how-to-run-ros-on-startup-bootup/
+
+/etc/systemd/system/roscore.service
+/etc/r[2;3Rv.sh
+/etc/systemd/system/roslaunch.service
+/usr/sbin/roslaunch
+
+$ sudo systemctl enable roscore.service
+$ sudo systemctl enable roslaunch.service
+$ sudo chmod +x /usr/sbin/roslaunch
+
 # Webserver Backend
 ## Flask
 https://dividable.net/python/flask-python/
