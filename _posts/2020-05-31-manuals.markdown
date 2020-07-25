@@ -24,7 +24,6 @@ $ git add README.md
 $ git config --global user.email "<youremailaccount>"
 $ git config --global user.name "<yourname>"
 $ git commit -m "first commit"
-$ git remote add origin git@github.com:<yourusername>/<reponame>.git
 $ git push -u origin master
 ```
 
