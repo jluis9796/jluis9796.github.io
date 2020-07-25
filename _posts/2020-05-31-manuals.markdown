@@ -349,6 +349,10 @@ implementation 'org.ros.rosjava_bootstrap:message_generation:[0.3, 0.4)'
 Create Talker class with this code and import it in MainActivity.java
 http://docs.ros.org/hydro/api/rosjava_core/html/Talker_8java_source.html
 
+## To access the device camera and display video (Remember to go to smartphone settings and enable camera permissions)
+https://qiita.com/zaburo/items/d9d07eb4d87d21308124
+https://www.programing-style.com/android/android-api/android-surfaceview-video/
+
 # Tools
 ## X11VNC
 https://homemadegarbage.com/mac-raspi3-x11vnc
