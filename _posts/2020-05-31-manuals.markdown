@@ -15,6 +15,17 @@ https://qiita.com/seri1234/items/e651b3e108a695a92809
 ## Basic explanation about branching in GIT
 https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
+## Create new repository, add files, commit and push
+```
+git remote add origin git@github.com:<yourusername>/<reponame>.git
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:<yourusername>/<reponame>.git
+git push -u origin master
+```
+
 ## Basic commands
 Create new branch
 ```
