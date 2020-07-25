@@ -17,13 +17,15 @@ https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 ## Add new repository, add files, commit and push (The repo needs to be created in github.com)
 ```
-git init
-git remote add origin git@github.com:<yourusername>/<reponame>.git
-touch README.md
-git add README.md
-git commit -m "first commit"
-git remote add origin git@github.com:<yourusername>/<reponame>.git
-git push -u origin master
+$ git init
+$ git remote add origin git@github.com:<yourusername>/<reponame>.git
+$ touch README.md
+$ git add README.md
+$ git config --global user.email "<youremailaccount>"
+$ git config --global user.name "<yourname>"
+$ git commit -m "first commit"
+$ git remote add origin git@github.com:<yourusername>/<reponame>.git
+$ git push -u origin master
 ```
 
 ## Basic commands
