@@ -120,18 +120,19 @@ Add ros repository and install catkin tools
 $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -sc` main" > /etc/apt/sources.list.d/ros-latest.list'
 $ wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
 $ sudo apt-get update
-####$ sudo apt-get install python-catkin-tools
+$ sudo apt-get install python-catkin-tools
  ```
 
 Install ros libraries
 ```
-$ sudo apt install -y python-rosdep python-rosinstall-generator python-wstool python-rosinstall python-empy build-essential cmake
+$ sudo apt install -y python-rosinstall-generator python-wstool python-rosinstall python-empy build-essential cmake
+##$ sudo apt install python-rosdep
 ```
 
 Initialize rosdep
 ```
-$ sudo rosdep init
-$ rosdep update
+##$ sudo rosdep init
+##$ rosdep update
 ```
 
 Increase swap memory before installing (I increased to 500Mb)
@@ -147,7 +148,7 @@ $ sudo rosinstall_generator desktop --rosdistro melodic --deps --tar > ~/melodic
 $ sudo mv ~/melodic-desktop /amidachi/catkin_ws/melodic-desktop.rosinstall
 $ cd /amidachi/catkin_ws/
 $ sudo wstool init -j2 src melodic-desktop.rosinstall
-$ rosdep install --from-paths src --ignore-src --rosdistro melodic -y
+##$ rosdep install --from-paths src --ignore-src --rosdistro melodic -y
 ```
 
 Download rosbridge_suite (which includes rosbridge_server) and rosauth, and resolve dependencies.
@@ -156,7 +157,7 @@ $ cd src/
 $ sudo git clone https://github.com/RobotWebTools/rosbridge_suite.git
 $ sudo git clone https://github.com/GT-RAIL/rosauth.git
 $ cd ..
-$ rosdep install --from-paths src --ignore-src --rosdistro melodic -r -y
+##$ rosdep install --from-paths src --ignore-src --rosdistro melodic -r -y
 ```
 
 Build the libraries and run the server to check it works
