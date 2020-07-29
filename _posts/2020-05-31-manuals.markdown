@@ -164,9 +164,10 @@ Build the libraries and run the server to check it works
 ```
 $ sudo ./src/catkin/bin/catkin_make_isolated -j1 --install --source src -DCMAKE_BUILD_TYPE=Release
 $ source devel_isolated/setup.bash
-$ roslaunch robot_gui_bridge websocket.launch
+$ roscore
 ```
 
+## Add ROS webserver
 Create own package "robot_gui_bridge", add the package files and include the files in CMakeLists.txt
 ```
 $ sudo catkin_create_pkg robot_gui_bridge rosbridge_server --rosdistro melodic
@@ -194,6 +195,13 @@ When file are correctly included and built, they should be listed in this file
 $ vim build_isolated/robot_gui_bridge/install_manifest.txt
 ```
 
+## How to compile only one library? (Usually the building stops and I just one to re-run the fail for error checking) 
+Example: What if you need to compile one package?
+```
+$ cd /amidachi/catkin_ws/build_isolated/roscpp
+$ sudo /amidachi/catkin_ws/install_isolated/env.sh make -j1
+```
+
 ## How to startup at boot
 https://blog.roverrobotics.com/how-to-run-ros-on-startup-bootup/
 
@@ -211,6 +219,15 @@ $ sudo systemctl enable roslaunch.service
 $ sudo chmod +x /usr/sbin/roslaunch
 ```
 
+## Add audio support (audio_commons)
+http://wiki.ros.org/audio_common/Tutorials/Streaming%20audio
+http://wiki.ros.org/audio_common/Tutorials/Remotely%20listening%20through%20robot%20ears
+```
+$ cd /amidachi/catkin_ws/src
+$ sudo git clone https://github.com/ros-drivers/audio_common.git
+$ cd /amidachi/catkin_ws/
+$ sudo ./src/catkin/bin/catkin_make_isolated -j1 --install --source src -DCMAKE_BUILD_TYPE=Release
+```
 # OpenCV
 ## Main guide to Install OpenCV
 https://qiita.com/takahiro_itazuri/items/a67dd3bb7f5f88ca9dd8
@@ -365,6 +382,9 @@ http://docs.ros.org/hydro/api/rosjava_core/html/Talker_8java_source.html
 ## To access the device camera and display video (Remember to go to smartphone settings and enable camera permissions)
 https://qiita.com/zaburo/items/d9d07eb4d87d21308124
 https://www.programing-style.com/android/android-api/android-surfaceview-video/
+
+## Add audio support in Java
+https://github.com/cloudspace/rosjava_audio_module/blob/master/rosjava_audio_module/src/main/java/com/cloudspace/rosjava_video/AudioSubscriber.java
 
 # Tools
 ## X11VNC
