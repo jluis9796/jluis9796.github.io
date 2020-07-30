@@ -143,7 +143,7 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td>#Learning generalization #Deep learning #Multimodal integration</td>
-    <td> Description: A PR2 robot is teleoperated and controlled through ROS reality and Unity-based HTC-vive reality system. The human and robot share a virtual space, but are not superimposed (The humans is around the robot). The goal: This work evaluated twelve complex tasks and measured they were succesfully achieved with this robot and software, and whether they could be teleoperated. Found issues: required precision, knowing possible robot posses through ROS reality. Benefits: They argue that teleoperation could be a solution to the problem of gathering data for learning from demonstration.</td>
+    <td> Description: A Baxter robot is teleoperated and controlled through ROS reality and Unity-based HTC-vive reality system. The human and robot share a virtual space, but are not superimposed (The humans is around the robot). The goal: This work evaluated twelve complex tasks and measured whether they were succesfully achieved with this robot and software, and whether they could be teleoperated. Found issues: more precision for block stacking through VR, robot force or end-effector deficiencies, not knowing robot posses limitations through ROS reality. Benefits: They argue that teleoperation could be a solution to the problem of gathering data for learning from demonstration.</td>
     </tr>
   </tbody>
 </table>
