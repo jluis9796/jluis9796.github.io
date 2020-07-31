@@ -134,7 +134,7 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td>#Learning generalization #Deep learning #Multimodal integration</td>
-    <td>Object Manipulation Learning transfer</td>
+    <td>Description: A simulated and real PR2 robot are teleoperated by non-experts through a crowd-sourcing web-based 3d-viewer-controller to manipulate objects, and a deep learning model is trained to learn this data (point cloud, language, trajectory). The goal: Many differently-shaped objects share similarly-operated object parts; thus, the goal is to evaluate if the manipulation trajectory of an object can be transferred to a completely different object if they share similarly-operated parts (116 RGB-D point-clouds, 1225 trajectories, 250 language instructions by 71 non-experts). Found issues: Were trajectories completely transferred? Yes for 60%. Were the object manipulation the actual correct one? No guarantee, but the results showed it was achieved for a large fraction of objects which the robot has never seen before. Is crowd-sourcing teaching possible? Yes, crowd-sourced non-experts performed at 60%, compared to 53.1% by experts</td>
     </tr>
     <tr>
     <td>Eric Rosen, Elizabeth Phillips, David Whitney, Daniel Ullman, Stefanie Tellex .Testing robot teleoperation using a virtual reality interface with ROS reality, 2018</td>
