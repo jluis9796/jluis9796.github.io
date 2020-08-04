@@ -116,7 +116,7 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td>#Cloud crowdsourcing</td>
-    <td> Description: A crowd-sourced platform that collects large set of data from concurrent users for robot manipulation through a video-streaming website and a smartphone as a VR motion controller. Assumption: While RL requires reward function, large-state-space exploration, large interaction, and self-supervised learning has large noise, Imitation learning improves efficiency and performance. While kinesthestic teaching is intuitive but limited, teleoperation has been for decades. While video-game controllers lacks natural variations in motion, free-space positioning interfaces as VR enables fine-grained dexterous control.</td>
+    <td> Summary</td>
     </tr>
     <tr>
     <td>Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018</td>
@@ -125,7 +125,7 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td>#Toolkits #Mobile phone endpoing #Transpacific teleoperation (China - California) #Learning from teleoperation demonstration </td>
-    <td>Summary</td>
+    <td>Description: A crowd-sourced platform that collects large set of data from concurrent users for robot manipulation through a video-streaming website and a smartphone as a VR motion controller. Assumption: While RL requires reward function, large-state-space exploration, large interaction, and self-supervised learning has large noise, Imitation learning improves efficiency and performance. While kinesthestic teaching is intuitive but limited, teleoperation has been for decades. While video-game controllers lacks natural variations in motion, free-space positioning interfaces as VR enables fine-grained dexterous control. The goal: They conducted a user study comparing the performance of smartphone-based controller, keyboard, 3D Mouse and VR controller.</td>
     </tr>
     <tr>
     <td>Jaeyong Sung, Seok Hyun Jin, Ashutosh Saxena. Robobarista: Object part based transfer of manipulation trajectories from crowd-sourcing in 3d pointclouds, 2015</td>
