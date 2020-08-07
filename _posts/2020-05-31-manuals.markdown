@@ -228,6 +228,19 @@ $ sudo git clone https://github.com/ros-drivers/audio_common.git
 $ cd /amidachi/catkin_ws/
 $ sudo ./src/catkin/bin/catkin_make_isolated -j1 --install --source src -DCMAKE_BUILD_TYPE=Release
 ```
+
+Start capturing audio data using the following command (This will produce an /audio topic).
+$ roslaunch audio_capture capture.launch
+
+To see if the microphone is detected, do:
+$ cat /proc/bus/usb/devices
+
+To see if the USB-microphone is detected and installed, try:
+$ cat /proc/asound/cards
+
+Check to see if it is streaming any data:
+$ rostopic hz /audio
+
 # OpenCV
 ## Main guide to Install OpenCV
 https://qiita.com/takahiro_itazuri/items/a67dd3bb7f5f88ca9dd8
