@@ -222,6 +222,7 @@ $ sudo chmod +x /usr/sbin/roslaunch
 ## Add audio support (audio_commons)
 http://wiki.ros.org/audio_common/Tutorials/Streaming%20audio
 http://wiki.ros.org/audio_common/Tutorials/Remotely%20listening%20through%20robot%20ears
+https://wiki.audacityteam.org/wiki/USB_mic_on_Linux
 ```
 $ cd /amidachi/catkin_ws/src
 $ sudo git clone https://github.com/ros-drivers/audio_common.git
