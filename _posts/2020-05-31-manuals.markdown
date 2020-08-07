@@ -236,6 +236,9 @@ $ roslaunch audio_capture capture.launch
 Check to see if it is streaming any data:
 $ rostopic hz /audio
 
+Test: Acquire audio data from the mic and forward them to the headphones:
+$ gst-launch-0.10 alsasrc device=hw:1,0 ! audioconvert ! audioresample ! alsasink
+
 ## Setup usb-microphone
 To see if the microphone is detected, do:
 $ cat /proc/bus/usb/devices
