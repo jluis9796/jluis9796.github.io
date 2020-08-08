@@ -230,16 +230,29 @@ $ cd /amidachi/catkin_ws/
 $ sudo ./src/catkin/bin/catkin_make_isolated -j1 --install --source src -DCMAKE_BUILD_TYPE=Release
 ```
 Edit settings for the audio data (You must do it in src/ folder to keep changes)
+```
 $ vim install_isolated/share/audio_capture/launch/capture.launch 
+```
 
 Start capturing audio data using the following command (This will produce an /audio topic).
+```
 $ roslaunch audio_capture capture.launch
+```
 
 Check to see if it is streaming any data:
+```
 $ rostopic hz /audio
-
+```
 Test: Acquire audio data from the mic and forward them to the headphones:
+```
 $ gst-launch-0.10 alsasrc device=hw:1,0 ! audioconvert ! audioresample ! alsasink
+```
+
+Test: Record and save file. Then play it.
+```
+$ arecord -f s16_le -D hw:1,0 -d 20 /home/pi/test.wav
+$ aplay -f s16_le /home/pi/test.wav
+```
 
 ## Setup usb-microphone
 To see if the microphone is detected, do:
