@@ -229,6 +229,8 @@ $ sudo git clone https://github.com/ros-drivers/audio_common.git
 $ cd /amidachi/catkin_ws/
 $ sudo ./src/catkin/bin/catkin_make_isolated -j1 --install --source src -DCMAKE_BUILD_TYPE=Release
 ```
+Edit settings for the audio data (You must do it in src/ folder to keep changes)
+$ vim install_isolated/share/audio_capture/launch/capture.launch 
 
 Start capturing audio data using the following command (This will produce an /audio topic).
 $ roslaunch audio_capture capture.launch
