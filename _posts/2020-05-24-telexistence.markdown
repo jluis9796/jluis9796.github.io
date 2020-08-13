@@ -116,7 +116,7 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td>#Cloud crowdsourcing</td>
-    <td> Summary</td>
+    <td> Description: A system asks crowdsourced users to place a series of items in a simulated world inside of a web browser (three JavaScript libraries were developed to facilitate web-based humanrobot interaction: the roslibjs client library and ros2djs and ros3djs visualization libraries). This raw data is used to generate a multi-hypothesis models in an unsupervised manner via Expectation Maximization clustering and a novel ranking heuristic. In addition, when ordering constraints are needed, the solution proposed is weighting the heuristic by a ratio of coarsely available temporal data. Finally an algorithm (Temporal Persistence Modeling) is presented for probabilistic prediction of the time that an object is expected to remain at a given location given sparse prior observations. Assumption: The goal: The findings:</td>
     </tr>
     <tr>
     <td>Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018</td>
