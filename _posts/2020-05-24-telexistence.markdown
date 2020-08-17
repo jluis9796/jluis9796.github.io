@@ -116,7 +116,10 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td>#Cloud crowdsourcing</td>
-    <td> Description: A system asks crowdsourced users to place a series of items in a simulated world inside of a web browser (three JavaScript libraries were developed to facilitate web-based humanrobot interaction: the roslibjs client library and ros2djs and ros3djs visualization libraries). This raw data is used to generate a multi-hypothesis models in an unsupervised manner via Expectation Maximization clustering and a novel ranking heuristic. In addition, when ordering constraints are needed, the solution proposed is weighting the heuristic by a ratio of coarsely available temporal data. Finally an algorithm (Temporal Persistence Modeling) is presented for probabilistic prediction of the time that an object is expected to remain at a given location given sparse prior observations. Assumption: The goal: The findings:</td>
+    <td> Description: A system asks crowdsourced users to place a series of items in a simulated world inside of a web browser (three JavaScript libraries were developed to facilitate web-based humanrobot interaction: the roslibjs client library and ros2djs and ros3djs visualization libraries). This raw data is used to generate a multi-hypothesis models in an unsupervised manner via Expectation Maximization clustering and a novel ranking heuristic. In addition, when ordering constraints are needed, the solution proposed is weighting the heuristic by a ratio of coarsely available temporal data. Finally an algorithm (Temporal Persistence Modeling) is presented for probabilistic prediction of the time that an object is expected to remain at a given location given sparse prior observations. Assumption: The goal: The findings: The resulting hypotheses from the proposed
+methodology matched the human expectation of the task description 94% of the time when no temporal constraints are required.  A CARL robot (consists of
+a Segway RMP base with a 6 degree-of-freedom JACO arm)  successfully queried the system for what a table setting template is, found the necessary objects on the kitchen
+counter, and set the table appropriately. </td>
     </tr>
     <tr>
     <td>Ajay Mandlekar et al. RoboTurk: A crowdsourcing platform for robotic skill learning through imitation, 2018</td>
