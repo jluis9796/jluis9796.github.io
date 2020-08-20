@@ -62,7 +62,10 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td></td>
-    <td>Summary</td>
+    <td>Description: In contrast to contemporary robot manipulation using a Free Positioning pose specification, here two novel interfaces, Constrained Positioning and Point-and-Click, are presented, which incorporate scene information from depth data into the grasp pose to reduce the number of 3D transformations the user must input. Also, the interactions are designed for 2D image streams, rather than traditional 3D virtual scenes, further reducing mental transformations. The findings: The study showed that Point-and-Click outperforms both Free Positioning and Constrained Positioning by significantly increasing the number of tasks completed and significantly reducing task
+failures and grasping errors, while significantly reducing the number of user interactions. Also,  the 2D visualization mode resulted in significantly better
+performance than the 3D visualization mode, with significant reductions in task failures, grasping errors, task completion time, number of interactions, and user workload, all while reducing bandwidth requirements imposed by streaming depth data.
+</td>
     </tr>
     <tr>
     <td>Akira Fukabori, Kevin Kajitani. Ana Avatar, 2018</td>
