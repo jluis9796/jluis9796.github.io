@@ -65,15 +65,6 @@ date:   2020-05-24 13:34:36 +0900
     <td>Summary</td>
     </tr>
     <tr>
-    <td>Jaeyong Sung, Seok Hyun Jin, Ashutosh Saxena. Robobarista: Object part based transfer of manipulation trajectories from crowd-sourcing in 3d pointclouds, 2018.</td>
-    <td>●●●●</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>#Learning object manipulation through crowd-sourcing</td>
-    <td>Summary</td>
-    </tr>
-    <tr>
     <td>Akira Fukabori, Kevin Kajitani. Ana Avatar, 2018</td>
     <td>●●●●</td>
     <td></td>
