@@ -47,7 +47,7 @@ date:   2020-05-24 13:34:36 +0900
     <td>Summary</td>
     </tr>
     <tr>
-    <td>David Kent, Carl, Saldanha, Sonia Chernova. A comparison of remote robot teleoperation interfaces for General object manipulation, 2017</td>
+    <td></td>
     <td>●●●●</td>
     <td></td>
     <td></td>
@@ -56,7 +56,7 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     </tr>
     <tr>
-    <td>David Kent, Carl, Saldanha, Sonia Chernova. Leveraging depth data in remote robot teleoperation interfaces for general object manipulation, 2019</td>
+    <td>David Kent, Carl Saldanha, Sonia Chernova. Leveraging depth data in remote robot teleoperation interfaces for general object manipulation, 2019. (David Kent, Carl Saldanha, Sonia Chernova. A comparison of remote robot teleoperation interfaces for General object manipulation, 2017)</td>
     <td></td>
     <td></td>
     <td></td>
