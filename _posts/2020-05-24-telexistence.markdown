@@ -56,7 +56,7 @@ date:   2020-05-24 13:34:36 +0900
     <td>(Free-positioning, Constrained-positioning,point-and-click)</td>
     </tr>
     <tr>
-    <td>David Kent, Carl, Saldanha, Sonia Chernova. Leveraging depth data in remote robot teleoperation interfaces for general object manipulation, 2017</td>
+    <td>David Kent, Carl, Saldanha, Sonia Chernova. Leveraging depth data in remote robot teleoperation interfaces for general object manipulation, 2019</td>
     <td></td>
     <td></td>
     <td></td>
