@@ -132,6 +132,15 @@ counter, and set the table appropriately. For unknown ordering constraints, the 
     <td>#Learning generalization #Deep learning #Multimodal integration</td>
     <td> Description: A Baxter robot is teleoperated and controlled through ROS reality and Unity-based HTC-vive reality system. The human and robot share a virtual space, but are not superimposed (The humans is around the robot). The goal: This work evaluated twelve complex tasks and measured whether they were succesfully achieved with this robot and software, and whether they could be teleoperated. Found issues: more precision for block stacking through VR, robot force or end-effector deficiencies, not knowing robot posses limitations through ROS reality. Benefits: They argue that teleoperation could be a solution to the problem of gathering data for learning from demonstration.</td>
     </tr>
+    <tr>
+    <td> Tianhao zhang, et al. Deep imitiation learning for complex manipulation tasks from virtual reality teleoperation, 2018</td>
+    <td>●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>#Object Manipulation #Deep learning #Multimodal integration #Learning from teleoperation demonstration </td>
+    <td>Description: A consumer-grade VR device (headset and motion-tracked controller) is used to teleoperate a PR2 robot. The data from conducting ten manipulation tasks with the robot was collected and used to train deep visuomotor policies (pixels-to-action mapping). The goals: Can we build an inexpensive and intuitive teleoperation system for robotic manipulation? can imitation learning learn to solve manipulation tasks using these data? The result: less than 30 minutes of data was sufficient to learn a successful policy.</td>
+    </tr>
   </tbody>
 </table>
 
