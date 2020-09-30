@@ -141,7 +141,15 @@ counter, and set the table appropriately. For unknown ordering constraints, the 
     <td>#Object Manipulation #Deep learning #Multimodal integration #Learning from teleoperation demonstration </td>
     <td>Description: A consumer-grade VR device (headset and motion-tracked controller) is used to teleoperate a PR2 robot (with a RGBD-camera for color and depth images). The data (RGB image, depth image and hand position) from conducting ten manipulation tasks with the robot was collected and used to train deep visuomotor policies (pixels-to-action mapping). The goals: Can we build an inexpensive and intuitive teleoperation system for robotic manipulation? can imitation learning learn to solve manipulation tasks using these data? Assumption: To avoid sickness due to time lag between displayed scene and humans' head motion, we render a 3D point cloud from RGBD images as object in the virtual environment and update instantaneously the human view to reflect head movement. The result: less than 30 minutes of data was sufficient to learn a successful policy (High success rate and good generalization) even in long running tasks. Although successful, the learned policies were often suboptimal compared to humans (e.g., not following the shortest path). For initial states beyond the training ones, the robot succeded in the experiments. </td>
     </tr>
+        <tr>
+    <td>Ioannis Havouties, Sylvain Calinon. Learning from demonstration for semi-autonomous teleoperation, 2018</td>
+    <td>●●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>#Underwater teleoperation #Mixed teleoperation #TP-HSMM (Markov Model) #LQT (Linear Quadratic Tracking)</td>
+    <td>Description: A teleoperation strategy that decouple the operator's and the robot's spaces in the statistical representation is proposed. This proposed approach intends to replace the conventional user of video streams with a minimal exchange of activation weights as communication overhead.</td>
+    </tr>
   </tbody>
 </table>
 
-the 
