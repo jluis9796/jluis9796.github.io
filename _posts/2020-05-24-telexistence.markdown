@@ -148,7 +148,7 @@ counter, and set the table appropriately. For unknown ordering constraints, the 
     <td></td>
     <td></td>
     <td>#Underwater teleoperation #Mixed teleoperation #TP-HSMM (Markov Model) #LQT (Linear Quadratic Tracking)</td>
-    <td>Description: A teleoperation strategy that decouple the operator's and the robot's spaces in the statistical representation is proposed. This proposed approach intends to replace the conventional user of video streams with a minimal exchange of activation weights as communication overhead.</td>
+    <td>Description: A teleoperation strategy that decouples the operator's and the robot's spaces in the statistical representation is proposed (Namely, mixed teleoperation). This approach intends to replace the conventional use of video streams with a minimal exchange of activation weights as communication overhead. The problems: The variability of the robot operating environment. Communication bandwidth in long range teleoperation (e.g., space, deepsea) imposes a hard constraint on the efficiency of the system. Assumption: Most variability comes from the change of the pose of the manipulators and the pose of the itemsto be manipulated. Hypothesis: We use a task-parametrized Hidden semi-Markov model (TP-HSMM) to learn task representations (task-parametrized mixture model encoding is flexible and HSMM captures motion duration and generate novel trajectories), and generate motions by sampling in combination with linear quadratic tracking (LQT). The result: </td>
     </tr>
   </tbody>
 </table>
