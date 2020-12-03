@@ -150,6 +150,16 @@ counter, and set the table appropriately. For unknown ordering constraints, the 
     <td>#Underwater teleoperation #Mixed teleoperation #TP-HSMM (Markov Model) #LQT (Linear Quadratic Tracking)</td>
     <td>Description: A teleoperation strategy that decouples the operator's and the robot's spaces in the statistical representation is proposed (Namely, mixed teleoperation). This approach intends to replace the conventional use of video streams with a minimal exchange of activation weights as communication overhead. The problems: The variability of the robot operating environment. Communication bandwidth in long range teleoperation (e.g., space, deepsea) imposes a hard constraint on the efficiency of the system. Assumption: Most variability comes from the change of the pose of the manipulators and the pose of the items to be manipulated. Hypothesis: We use a task-parametrized Hidden semi-Markov model (TP-HSMM) to learn task representations (why? because task-parametrized mixture model encoding is flexible and HSMM captures motion duration and generate novel trajectories), and generate motions by sampling in combination with linear quadratic tracking (LQT). Previous models in Robotics: DMPs (Ijspeert, 2013. Palomeras, 2016). Extended DMP (Gams+, 2014. Ude+, 2014. Pastor+, 2011). GMM+GMR (Calinon+, 2012. Calinon, 2016). TP-GMM (Zeestraten+, 2017). HMM + GMR to improve HMMs poor state duration modeling (Lee & Ott, 2010. Lee+, 2010. Chan+, 2013). HMM + motion planner (Bowen & Alterovitz, 2014). HMM + HMM-space-distance-based clustering (Kulic+, 2008). Previous models in speech synthesis: HSMM (Yu & Kobayashi, 2006). HSMM in robotics models the state transition and duration (Calinon+, 2011. Tanwani & Calinon, 2016. Havoutis+, 2016. Havoutis & Calinon, 2016, 2017) . The result: </td>
     </tr>
+    <tr>
+    <td>Lawrence R. Rabiner. A tutorial on Hidden Markov Models and selected applications in speech recognition, 1989</td>
+    <td>●</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>#HMM #SpeechRecognition #ViterbiSearch</td>
+    <td>Summary</td>
+    </tr>
+    
   </tbody>
 </table>
 
