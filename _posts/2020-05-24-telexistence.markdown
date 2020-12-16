@@ -157,7 +157,7 @@ counter, and set the table appropriately. For unknown ordering constraints, the 
     <td></td>
     <td></td>
     <td>#HMM #SpeechRecognition #ViterbiSearch</td>
-    <td>Summary</td>
+    <td>Summary: Discrete Markov Processes<br>Extension to Hidden Markov Models</td>
     </tr>
     
   </tbody>
