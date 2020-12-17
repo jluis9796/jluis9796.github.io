@@ -157,7 +157,7 @@ counter, and set the table appropriately. For unknown ordering constraints, the 
     <td></td>
     <td></td>
     <td>#HMM #SpeechRecognition #ViterbiSearch</td>
-    <td>Summary: Introduction. Discrete Markov Processes<br>Extension to Hidden Markov Models<br>Elements of an HMM<br>The three basic problems of HMMs<br>Solutions to the basic problems of HMMs<br>Types of HMMs<br>Continuous observation densities in HMMs<br>Autoregressive HMMs<br>Variants on HMM structures-Null transitions and tied states<br>Inclusion of explicit state duration density in HMMs<br>Optimization criterion - ML, MMI, MDI<br>Comparison of HMMs<br>Implementation issues for HMMs<br>Scaling<br>Multiple observation sequences<br>Initial estimates of HMM parameters<br>Effects of insufficient training data<br>Choice of model</td>
+    <td>● Introduction.<br>● Discrete Markov Processes<br>Extension to Hidden Markov Models<br>Elements of an HMM<br>The three basic problems of HMMs<br>● Solutions to the basic problems of HMMs<br>● Types of HMMs<br>Continuous observation densities in HMMs<br>Autoregressive HMMs<br>Variants on HMM structures-Null transitions and tied states<br>Inclusion of explicit state duration density in HMMs<br>Optimization criterion - ML, MMI, MDI<br>Comparison of HMMs<br>● Implementation issues for HMMs<br>Scaling<br>Multiple observation sequences<br>Initial estimates of HMM parameters<br>Effects of insufficient training data<br>Choice of model<br>● Implementation of Speech recognizers using HMMs.<br> ● Connected word recognition using HMMs. <br>● HMMs for large vocabulary speech recognition. </td>
     </tr>
     
   </tbody>
