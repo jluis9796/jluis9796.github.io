@@ -91,7 +91,7 @@ failures and grasping errors, while significantly reducing the number of user in
     <td></td>
     <td></td>
     <td>#Toolkits</td>
-    <td>Summary</td>
+    <td>The problem: It has been reported a wide decrease of efficiency of remote manipulation of construction machines in comparison to direct manipulation. While rescue tasks do not require as much efficiency as security, mine tasks demand profitability and therefore require efficiency. </td>
     </tr>
     <tr>
     <td>Russell C. Toris. Spatial and Temporal Learning in Robotic Pickand-Place Domains via Demonstrations and Observations, Phd thesis, 2016 <a href= "https://digitalcommons.wpi.edu/cgi/viewcontent.cgi?article=1134&context=etd-dissertations" > (Link) </a></td>
