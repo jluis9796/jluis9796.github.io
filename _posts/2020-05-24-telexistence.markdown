@@ -73,7 +73,7 @@ failures and grasping errors, while significantly reducing the number of user in
     <td></td>
     <td></td>
     <td>#Toolkits</td>
-    <td>Summary</td>
+    <td>Description: In contrast with traditional telepresence systems, the design of telexistence robots (such as Telesar V) is mainly inhereted from the human body, thus the mapping between operator and the robot is consistent, and the sensory modalities and feedback are coherent. One advantage is the ability to redesign specific factors of human body. For example, modulate specific sensory modalities and augment parts of the body. Here, a telexistence toolkit (TxToolkit) used in augmentative, assistive, and collaboration apps is shown.</td>
     </tr>
     <tr>
     <td>MHD Charith Fernando, Genki Sano. Future of telexistence technology and its impact to the society, 2018</td>
