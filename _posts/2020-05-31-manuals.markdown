@@ -83,6 +83,15 @@ List commit files
 $ git show --name-only --oneline HEAD
 ```
 
+# Networking
+
+Statistics of network usage
+https://linuxhint.com/network_usage_per_process/
+
+$ sudo apt-get install iptraf
+$ sudo iptraf-ng
+
+
 # ROS
 
 ## ROS Robotics By Example (Including ROS installation)
