@@ -91,6 +91,12 @@ https://linuxhint.com/network_usage_per_process/
 $ sudo apt-get install iptraf
 $ sudo iptraf-ng
 
+Testing LAN network and WAN network speed from terminal
+https://opensource.com/article/20/1/internet-speed-tests
+- Speedtest
+- Fast
+- iPerf
+
 
 # ROS
 
