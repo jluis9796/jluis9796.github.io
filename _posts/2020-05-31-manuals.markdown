@@ -97,6 +97,8 @@ https://opensource.com/article/20/1/internet-speed-tests
 - Fast
 - iPerf
 
+Experimental results of several Raspberry PI's speed test on LAN and Wifi
+https://notenoughtech.com/raspberry-pi/raspberry-pi-internet-speed/
 
 # ROS
 
