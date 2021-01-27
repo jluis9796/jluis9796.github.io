@@ -64,7 +64,7 @@ failures and grasping errors, while significantly reducing the number of user in
     <td></td>
     <td></td>
     <td>#Toolkits</td>
-    <td>Summary</td>
+    <td>Description: Avatar refers to the technology that makes possible to experience senses through remote control in real time of robot synchronized to the user by using haptics, VR, telecommunications, sensors and robotics. Also it refers to the robot itself. It differs from remote communication in the fact that it makes possible to transmit the presence feeling, conciousness and skills. ANA decided to focus on this new technology to accomplish their goal: contributing to the dream future by connecting the world. </td>
     </tr>
     <tr>
     <td>MHD Yamen Saraiji. Beyond Presence - A telexistence toolkit for augmenting body and re-engineering presence, 2018</td>
