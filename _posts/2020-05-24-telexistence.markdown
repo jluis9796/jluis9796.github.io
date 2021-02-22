@@ -44,7 +44,7 @@ date:   2020-05-24 13:34:36 +0900
     <td></td>
     <td></td>
     <td>#Scale conversion</td>
-    <td>Summary</td>
+    <td>Description: In hand motion of teleoperated robots, not only motion conversion but also other physical quantities are related to the scale conversion, and the device dimensions and the control are accurately designed. In most cases, geometrical relations are used. Endoscope tips have two cameras, and the distance between them is designed to be one scale smaller than the display for the surgeon. The tip of the robots is also one scale smaller than the surgeon's hand. </td>
     </tr>
     <tr>
     <td>David Kent, Carl Saldanha, Sonia Chernova. Leveraging depth data in remote robot teleoperation interfaces for general object manipulation, 2019. (David Kent, Carl Saldanha, Sonia Chernova. A comparison of remote robot teleoperation interfaces for General object manipulation, 2017)</td>
