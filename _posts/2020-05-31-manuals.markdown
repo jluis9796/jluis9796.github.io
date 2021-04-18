@@ -132,19 +132,26 @@ $ pyenv global 3.7.2
 or
 $ pyenv local 3.7.2
 
-# Jupyter & Fastai (Pytorch)
+# Fastai (Pytorch) & Jupyter
 
-# Install python and other tools
+## Install python and other tools
 Using pyenv, install anaconda version of python
 
 $ pyenv install -v anaconda3-2020.11
 $ pyenv global anaconda3-2020.11
 
-# Create virtual environment
+## Create virtual environment and activate it
 Create a VM named fastai (or the name you want) and the python version you need.
 $ conda create -n fastai-py38 python=3.8
+$ conda activate fastai-py38
 
+## Install the fastai libraries
+$ conda install -c fastai -c pytorch fastai
+$ conda install -c fastai nbdev
 
+## Install the jupyter libraries
+$ conda install jupyter notebook
+$ conda install -c conda-forge jupyter_contrib_nbextensions
 
 # ROS
 
