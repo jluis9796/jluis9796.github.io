@@ -103,10 +103,10 @@ https://notenoughtech.com/raspberry-pi/raspberry-pi-internet-speed/
 # Python Manager & Virtual environment
 ## Installing pyenv
 https://realpython.com/intro-to-pyenv/
-
+```
 $ sudo apt-get install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl
 $ curl https://pyenv.run | bash
-
+```
 Finally, adding the next lines to ~/.bashrc:
 
 ```
@@ -115,43 +115,56 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 and restart bashrc (or restart the terminal)
+```
 $ exec "$SHELL"
-
+```
 ## Installing and changing between python versions
 First, check the list of available versions
+```
 $ pyenv install --list
-
+```
 Then install it (with -v activate verbose)
+```
 $ pyenv install  -v 3.7.2
-
+```
 Check the installed versions
+```
 $ pyenv versions
-
+```
 Change to another version
+```
 $ pyenv global 3.7.2
+```
 or
+```
 $ pyenv local 3.7.2
-
+```
 # Fastai (Pytorch) & Jupyter
 
 ## Install python and other tools
 Using pyenv, install anaconda version of python
-
+```
 $ pyenv install -v anaconda3-2020.11
 $ pyenv global anaconda3-2020.11
-
+```
 ## Create virtual environment and activate it
 Create a VM named fastai (or the name you want) and the python version you need.
+```
 $ conda create -n fastai-py38 python=3.8
 $ conda activate fastai-py38
+```
 
 ## Install the fastai libraries
+```
 $ conda install -c fastai -c pytorch fastai
 $ conda install -c fastai nbdev
+```
 
 ## Install the jupyter libraries
+```
 $ conda install jupyter notebook
 $ conda install -c conda-forge jupyter_contrib_nbextensions
+```
 
 # ROS
 
