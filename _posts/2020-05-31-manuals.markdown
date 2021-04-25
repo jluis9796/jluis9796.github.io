@@ -195,6 +195,17 @@ Verify that Docker Engine is installed correctly
 $  sudo docker run hello-world
 ```
 
+## Get image, build and run Docker container
+
+```
+$ cd /amidachi
+$ sudo mkdir docker-ffmpeg
+$ cd docker-ffmpeg/
+$ sudo docker search ffmpeg
+$ sudo vim Dockerfile
+  FROM jrottenberg/ffmpeg:4.1-ubuntu
+$ sudo docker build -t docker-ffmpeg .
+```
 
 # ROS
 
