@@ -195,6 +195,26 @@ Verify that Docker Engine is installed correctly
 $  sudo docker run hello-world
 ```
 
+# Customize docker
+Create a docker file that imports an existing file and add additional packages(e.g., fonts)
+```
+$ vim Dockerfile
+   FROM jrottenberg/ffmpeg:4.1-ubuntu
+   RUN apt-get install fonts-dejavu -y
+   RUN fc-cache -f
+```
+Build the image and check 
+```
+$ sudo docker build -t docker-ffmpeg-fonts .
+$ sudo docker images
+```
+Finally, you run it.
+
+In case you want to check the container from inside
+```
+$sudo docker run -it --entrypoint sh docker-ffmpeg-fonts
+```
+
 ## Get image, build and run Docker container
 
 ```
