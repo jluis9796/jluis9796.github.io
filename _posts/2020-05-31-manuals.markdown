@@ -227,6 +227,12 @@ $ sudo vim Dockerfile
 $ sudo docker build -t docker-ffmpeg .
 ```
 
+# Install FFMPEG
+```
+$ sudo apt-get update
+$ sudo apt-get install ffmpeg
+```
+
 # ROS
 
 ## ROS Robotics By Example (Including ROS installation)
