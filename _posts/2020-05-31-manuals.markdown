@@ -563,6 +563,9 @@ https://www.andruni.com/app-name-icon-android/
 ## Linking Android Studio to GIT
 https://blog.codecamp.jp/programming-androidstudio-github
 
+### Generate Authentication Token in github
+https://qiita.com/uedd/items/6978a987778246f71f9f
+
 ## Develop ROS app for Android
 https://qiita.com/goodclues/items/40f7bf52fb74fa13190c
 Modification:
