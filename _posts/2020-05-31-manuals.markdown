@@ -100,6 +100,11 @@ https://opensource.com/article/20/1/internet-speed-tests
 Experimental results of several Raspberry PI's speed test on LAN and Wifi
 https://notenoughtech.com/raspberry-pi/raspberry-pi-internet-speed/
 
+## Setting network (static ip address) in raspbian 
+```
+pi@raspberrypizero2:~ $ vim /etc/dhcp/dhclient.conf
+```
+
 # Python Manager & Virtual environment
 ## Installing pyenv
 https://realpython.com/intro-to-pyenv/
