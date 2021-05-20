@@ -312,17 +312,19 @@ Install bootstrap dependencies (Ubuntu): These tools are used to facilitate the 
 ```
 If there are errors with this or the rosdep step below, your system's version of pip may be out-of-date. Use your system's package management to update it, or use it to update itself:
 ```
-$ sudo pip install --upgrade setuptools
+(for pipenv-python) $ sudo pip install --upgrade setuptools
 ```
-(for pipenv-python) $ sudo su
-(for pipenv-python) $ sudo su
-
-
-
 Initializing rosdep
 ```
-$ sudo rosdep init
-$ rosdep update
+(for pipenv-python) $ sudo su
+(for pipenv-python) # source /home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/bin/activate
+(for pipenv-python) # rosdep init
+(for pipenv-python) # rosdep update
+```
+
+```
+(for system-python) $ sudo rosdep init
+(for system-python) $ rosdep update
 ```
 In order to build the core packages, you will need a catkin workspace. Create one now:
 ```
@@ -332,14 +334,14 @@ $ mkdir src
 ```
 Next we will want to fetch the core packages so we can build them.
 ```
-$ rosinstall_generator desktop_full --rosdistro melodic --deps --tar > melodic-desktop-full.rosinstall
+$ rosinstall_generator desktop_full --rosdistro melodic --deps --tar > melodic-ros_comm.rosinstall
 $ vcs import src < melodic-ros_comm.rosinstall
 ```
 Before you can build your catkin workspace you need to make sure that you have all the required dependencies. We use the rosdep tool for this:
 ```
 $ rosdep install --from-paths src --ignore-src --rosdistro melodic -y
 ```
-
+$ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DSETUPTOOLS_DEB_LAYOUT=OFF
 
 ## Installation steps
 Create root folder and source folder
