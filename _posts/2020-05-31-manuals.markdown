@@ -341,7 +341,12 @@ Before you can build your catkin workspace you need to make sure that you have a
 ```
 $ rosdep install --from-paths src --ignore-src --rosdistro melodic -y
 ```
-$ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DSETUPTOOLS_DEB_LAYOUT=OFF
+
+You are ready to build the catkin packages.
+```
+(for pipenv-python) $ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DSETUPTOOLS_DEB_LAYOUT=OFF
+(for system-python) $ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
+```
 
 ## Installation steps
 Create root folder and source folder
