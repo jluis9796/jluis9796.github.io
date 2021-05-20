@@ -308,8 +308,17 @@ $ sudo apt update
 Install bootstrap dependencies (Ubuntu): These tools are used to facilitate the download and management of ROS packages and their dependencies
 ```
 (for pipenv-python) $ sudo pip install -U rosdep rosinstall_generator vcstool rosinstall
- for system-python) $ sudo apt-get install python-rosdep python-rosinstall-generator python-vcstool python-rosinstall build-essential
+(for system-python) $ sudo apt-get install python-rosdep python-rosinstall-generator python-vcstool python-rosinstall build-essential
 ```
+If there are errors with this or the rosdep step below, your system's version of pip may be out-of-date. Use your system's package management to update it, or use it to update itself:
+```
+$ sudo pip install --upgrade setuptools
+```
+(for pipenv-python) $ sudo su
+(for pipenv-python) $ sudo su
+
+
+
 Initializing rosdep
 ```
 $ sudo rosdep init
