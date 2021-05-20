@@ -144,6 +144,32 @@ or
 ```
 $ pyenv local 3.7.2
 ```
+
+## Installing pipenv
+
+To install pipenv, you need to install pip first. Then do
+```
+pip install pipenv
+```
+Next, you create a new environment by using
+```
+pipenv install 
+```
+To activate you can run
+```
+pipenv shell 
+```
+To install new packages do
+```
+pip install package
+```
+and pipenv will automatically add the package to the pipenv file that’s called Pipfile
+
+You can also install package for just the dev environement by calling
+```
+pip install <package> --dev
+```
+
 # Fastai (Pytorch) & Jupyter
 
 ## Install python and other tools
