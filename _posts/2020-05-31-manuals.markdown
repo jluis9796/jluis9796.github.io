@@ -290,6 +290,46 @@ http://wiki.ros.org/roslibjs/Tutorials/BasicRosFunctionality
 https://qiita.com/srs/items/d3ec9962f7814d7b16f5
 https://qiita.com/yoneken/items/7e45ad3fcf8010ed98ed
 
+## Installation steps (2021/05/20, Ubuntu)
+http://wiki.ros.org/melodic/Installation/Source
+
+Setup your computer to accept software from packages.ros.org.
+```
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+```
+Set up your keys
+```
+sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+```
+Make your Debian package index is up-to-date:
+```
+sudo apt update
+```
+Install bootstrap dependencies (Ubuntu): These tools are used to facilitate the download and management of ROS packages and their dependencies
+```
+sudo apt-get install python-rosdep python-rosinstall-generator python-vcstool python-rosinstall build-essential
+```
+Initializing rosdep
+```
+$ sudo rosdep init
+$ rosdep update
+```
+In order to build the core packages, you will need a catkin workspace. Create one now:
+```
+$ mkdir /amidachi/ros_catkin_ws
+$ cd /amidachi/ros_catkin_ws
+$ mkdir src
+```
+Next we will want to fetch the core packages so we can build them.
+```
+rosinstall_generator desktop_full --rosdistro melodic --deps --tar > melodic-desktop-full.rosinstall
+vcs import src < melodic-ros_comm.rosinstall
+```
+Before you can build your catkin workspace you need to make sure that you have all the required dependencies. We use the rosdep tool for this:
+```
+rosdep install --from-paths src --ignore-src --rosdistro melodic -y
+```
+
 ## Installation steps
 Create root folder and source folder
 ```
