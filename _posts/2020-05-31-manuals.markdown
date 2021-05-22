@@ -353,6 +353,18 @@ You are ready to build the catkin packages.
 (for system-python) $ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
 ```
 
+NOTE
+In case of error of rosbag_migration_rule cannot find catkin.cache_environment module, you should check whether the python detected is correct. In my case, I am running on python 3, but for some reason cmake was only detecting python 2. If so, change the python settings at build_isolated/rosbag_migration_rule/CMakeCache.txt as below.
+```
+//Path to a program.
+NOSETESTS:FILEPATH=/home/azureuser/.pyenv/shims/nosetests
+//Path to a program.
+PYTHON_EXECUTABLE:FILEPATH=/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/bin/python
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/bin/python][v3.8.9()]
+//Specify specific Python version to use ('major.minor' or 'major')
+PYTHON_VERSION:STRING=
+```
+
 ## Installation steps
 Create root folder and source folder
 ```
