@@ -364,7 +364,10 @@ FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/home/azureuser/.local/share
 //Specify specific Python version to use ('major.minor' or 'major')
 PYTHON_VERSION:STRING=
 ```
-
+or run the command with the python paths.
+```
+./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DSETUPTOOLS_DEB_LAYOUT=OFF -DPYTHON_EXECUTABLE=/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/bin/python -DNOSETESTS=/home/azureuser/.pyenv/shims/nosetests -DPYTHON_INCLUDE_DIR=/home/azureuser/.pyenv/versions/3.8.9/include/python3.8 -DPYTHON_LIBRARY=/home/azureuser/.pyenv/versions/3.8.9/lib/libpython3.8.a -DPYTHON3_PACKAGES_PATH=/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/lib/python3.8/site-packages
+```
 
 # Also see https://stackoverflow.com/questions/42638342/cannot-install-opencv-3-1-0-with-python3-cmake-not-including-or-linking-python
 
@@ -380,6 +383,24 @@ PYTHON_VERSION:STRING=
 #  -D PYTHON_LIBRARY=$(python3 -c "from distutils.sysconfig import get_config_var;from os.path import dirname,join ; print(join(dirname(get_config_var('LIBPC')),get_config_var('LDLIBRARY')))") \
 #  -D PYTHON3_NUMPY_INCLUDE_DIRS=$(python3 -c "import numpy; print(numpy.get_include())") \
 #  -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") 
+```
+
+NOTE 2
+```
+In case the installation indicates sipconfig is not found, the following process should be followed to install it.
+
+$ pipenv shell
+$ cd /home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/lib/python3.8/site-packages/
+$ wget https://www.riverbankcomputing.com/static/Downloads/sip/4.19.25/sip-4.19.25.tar.gz
+$ ls
+$ tar -xzvf sip-4.19.25.tar.gz
+$ cd sip-4.19.25/
+$ ls
+$ python --version
+$ python configure.py
+$ make
+$ sudo make install
+$ python -c "import sipconfig"
 ```
 
 ## Installation steps
