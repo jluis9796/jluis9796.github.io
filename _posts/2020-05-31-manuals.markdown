@@ -415,6 +415,8 @@ Uninstall the sip as below if needed.
 ```
 
 Note 3
+Reference: https://github.com/orocos/orocos_kinematics_dynamics/issues/260
+
 In order to solve the problem of orocos not compiling, the following files were modified by adding a constructor.
 ```
  2143  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chaindynparam.hpp
