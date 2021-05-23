@@ -386,9 +386,9 @@ or run the command with the python paths.
 ```
 
 NOTE 2
-```
 In case the installation indicates sipconfig is not found, the following process should be followed to install it.
 
+```
 $ pipenv shell
 $ cd /home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/lib/python3.8/site-packages/
 $ wget https://www.riverbankcomputing.com/static/Downloads/sip/4.19.25/sip-4.19.25.tar.gz
@@ -401,6 +401,17 @@ $ python configure.py
 $ make
 $ sudo make install
 $ python -c "import sipconfig"
+```
+
+Uninstall the sip as below if needed.
+```
+ 1984  cd /home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/
+ 1987  rm bin/sip
+ 1991  rm include/python3.8/sip.h
+ 1992  rm lib/python3.8/site-packages/sip.so
+ 1993  rm lib/python3.8/site-packages/sip.pyi
+ 1994  rm lib/python3.8/site-packages/sipconfig.py
+ 1995  rm lib/python3.8/site-packages/sipdistutils.py
 ```
 
 ## Installation steps
