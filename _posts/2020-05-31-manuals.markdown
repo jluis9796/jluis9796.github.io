@@ -353,7 +353,7 @@ You are ready to build the catkin packages.
 (for system-python) $ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
 ```
 
-NOTE
+NOTE 1
 In case of error of rosbag_migration_rule cannot find catkin.cache_environment module, you should check whether the python detected is correct. In my case, I am running on python 3, but for some reason cmake was only detecting python 2. If so, change the python settings at build_isolated/rosbag_migration_rule/CMakeCache.txt as below.
 ```
 //Path to a program.
@@ -412,6 +412,37 @@ Uninstall the sip as below if needed.
  1993  rm lib/python3.8/site-packages/sip.pyi
  1994  rm lib/python3.8/site-packages/sipconfig.py
  1995  rm lib/python3.8/site-packages/sipdistutils.py
+```
+
+Note 3
+In order to solve the problem of orocos not compiling, the following files were modified by adding a constructor.
+```
+ 2143  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chaindynparam.hpp
+ 2146  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
+ 2147  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_givens.hpp
+ 2148  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chainjnttojacsolver.hpp
+ 2150  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv_nso.hpp
+ 2151  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_lma.hpp
+ 2152  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_wdls.hpp
+ 2153  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolvervel_pinv.hpp
+ 2154  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr_jl.hpp
+ 2160  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chainiksolverpos_nr.hpp
+ 2161  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolvervel_recursive.hpp
+ 2164  vim src/orocos_kinematics_dynamics/orocos_kdl/src/chainfksolverpos_recursive.hpp
+ ```
+
+For example, for the class ChainDynParam, a constructor operator was added as below. Similar ones were added in the other files.
+```
+    class ChainDynParam : SolverI
+    {
+    public:
+        ChainDynParam(const Chain& chain, Vector _grav);
+        virtual ~ChainDynParam();
+
+        virtual int JntToCoriolis(const JntArray &q, const JntArray &q_dot, JntArray &coriolis);
+        virtual int JntToMass(const JntArray &q, JntSpaceInertiaMatrix& H);
+        virtual int JntToGravity(const JntArray &q,JntArray &gravity);
+        ChainDynParam& operator=(const ChainDynParam&);
 ```
 
 ## Installation steps
