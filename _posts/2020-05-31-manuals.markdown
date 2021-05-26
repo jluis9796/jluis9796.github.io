@@ -414,6 +414,22 @@ Uninstall the sip as below if needed.
  1995  rm lib/python3.8/site-packages/sipdistutils.py
 ```
 
+The package python_qt_binding is looking for sip in a very specific place and can be temperamental depending on how your system is setup. After sourcing local_setup.bash, try running a python terminal and checking for the output of the following:
+
+```
+>>> import sipconfig
+>>> print(sipconfig._pkg_config['default_sip_dir'])
+/usr/local/share/sip
+```
+/usr/local/share/sip should be the result from if you use homebrew for everything, but if you have Anaconda or some other python environment setup it could be elsewhere.
+
+The sip_configure.py file expects to find the PyQt5 sip directory (named either Qt5 or PyQt5) at sipconfig._pkg_config['default_sip_dir']. If you know it exists somewhere on your system, create a symlink. If you are unsure where it is located, do a Spotlight search for QtCoremod.sip and see what the base directory is.
+
+Create a symlink like this below. Replace default_sip_dir with the result of the printout above, and actual_location with where you found it on your system.
+```
+ln -s [default_sip_dir]/PyQt5 [actual_location]
+```
+
 Note 3
 Reference: https://github.com/orocos/orocos_kinematics_dynamics/issues/260
 
