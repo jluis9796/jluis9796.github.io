@@ -486,6 +486,7 @@ Note5
 Reference: https://doc.bccnsoft.com/docs/PyQt5/installation.html
 
 Due to the error, Unable to find file "QtCoremod", I had to download PyQt5 source and compile it (SIP must be installed before building and using PyQt5).
+Download the file from https://pypi.org/project/PyQt5/#files
 ```
 cd /home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/lib/python3.8/site-packages/
 tar -xzvf PyQt5-5.15.4.tar.gz
