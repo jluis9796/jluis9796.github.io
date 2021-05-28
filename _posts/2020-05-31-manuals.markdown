@@ -353,7 +353,7 @@ You are ready to build the catkin packages.
 (for system-python) $ ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
 ```
 
-NOTE 1
+### NOTE 1
 In case of error of rosbag_migration_rule cannot find catkin.cache_environment module, you should check whether the python detected is correct. In my case, I am running on python 3, but for some reason cmake was only detecting python 2. If so, change the python settings at build_isolated/rosbag_migration_rule/CMakeCache.txt as below.
 ```
 //Path to a program.
@@ -385,7 +385,7 @@ Also see https://stackoverflow.com/questions/42638342/cannot-install-opencv-3-1-
 #  -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") 
 ```
 
-NOTE 2
+### NOTE 2
 In case the installation indicates sipconfig is not found, the following process should be followed to install it.
 
 ```
@@ -430,7 +430,7 @@ Create a symlink like this below. Replace default_sip_dir with the result of the
 ln -s [default_sip_dir]/PyQt5 [actual_location]
 ```
 
-Note 3
+### Note 3
 Reference: https://github.com/orocos/orocos_kinematics_dynamics/issues/260
 
 In order to solve the problem of orocos not compiling, the following files were modified by adding a constructor.
@@ -463,7 +463,7 @@ For example, for the class ChainDynParam, a constructor operator was added as be
         ChainDynParam& operator=(const ChainDynParam&);
 ```
 
-Note 4
+### Note 4
 Due to the following error,
 ```
 /usr/bin/ld: /home/azureuser/.pyenv/versions/3.8.9/lib/libpython3.8.a(_warnings.o): relocation R_X86_64_PC32 against symbol `_PyRuntime' can not be used when mmpile with -fPIC
@@ -482,7 +482,7 @@ Then, the make command was modified to use this file
 ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DSETUPTOOLS_DEB_LAYOUT=OFF -DPYTHON_EXECUTABLE=/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/bin/python -DNOSETESTS=/home/azureuser/.pyenv/shims/nosetests -DPYTHON_INCLUDE_DIR=/home/azureuser/.pyenv/versions/3.8.9/include/python3.8 -DPYTHON_LIBRARY=/home/azureuser/.pyenv/versions/3.8.9/lib/libpython3.8.so -DPYTHON3_PACKAGES_PATH=/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/lib/python3.8/site-packages
 ```
 
-Note5
+### Note5
 Reference: https://doc.bccnsoft.com/docs/PyQt5/installation.html
 
 Due to the error, Unable to find file "QtCoremod", I had to download PyQt5 source and compile it (SIP must be installed before building and using PyQt5).
@@ -500,7 +500,7 @@ make
 sudo make install
 ```
 
-Note 6
+### Note 6
 ModuleNotFoundError: No module named 'em'
 AttributeError: module 'em' has no attribute 'Interpreter'
 
