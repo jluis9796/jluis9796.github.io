@@ -501,9 +501,10 @@ sudo make install
 
 Note 6
 ModuleNotFoundError: No module named 'em'
+AttributeError: module 'em' has no attribute 'Interpreter'
 
 ```
-(pipenv-system)$ pip install em
+(pipenv-system)$ pip install empy
 ```
 
 ## Installation steps
