@@ -479,7 +479,7 @@ After that, libpython3.8.so appeared inside the following folder
 ```
 Then, the make command was modified to use this file
 ```
-./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DSETUPTOOLS_DEB_LAYOUT=OFF -DPYTHON_EXECUTABLE=/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/bin/python -DNOSETESTS=/home/azureuser/.pyenv/shims/nosetests -DPYTHON_INCLUDE_DIR=/home/azureuser/.pyenv/versions/3.8.9/include/python3.8 -DPYTHON_LIBRARY=/home/azureuser/.pyenv/versions/3.8.9/lib/libpython3.8.a -DPYTHON3_PACKAGES_PATH=/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/lib/python3.8/site-packages
+./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DSETUPTOOLS_DEB_LAYOUT=OFF -DPYTHON_EXECUTABLE=/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/bin/python -DNOSETESTS=/home/azureuser/.pyenv/shims/nosetests -DPYTHON_INCLUDE_DIR=/home/azureuser/.pyenv/versions/3.8.9/include/python3.8 -DPYTHON_LIBRARY=/home/azureuser/.pyenv/versions/3.8.9/lib/libpython3.8.so -DPYTHON3_PACKAGES_PATH=/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/lib/python3.8/site-packages
 ```
 
 Note5
