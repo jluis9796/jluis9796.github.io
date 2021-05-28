@@ -369,7 +369,7 @@ or run the command with the python paths.
 ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DSETUPTOOLS_DEB_LAYOUT=OFF -DPYTHON_EXECUTABLE=/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/bin/python -DNOSETESTS=/home/azureuser/.pyenv/shims/nosetests -DPYTHON_INCLUDE_DIR=/home/azureuser/.pyenv/versions/3.8.9/include/python3.8 -DPYTHON_LIBRARY=/home/azureuser/.pyenv/versions/3.8.9/lib/libpython3.8.a -DPYTHON3_PACKAGES_PATH=/home/azureuser/.local/share/virtualenvs/ros_catkin_ws-3xEZohu2/lib/python3.8/site-packages
 ```
 
-# Also see https://stackoverflow.com/questions/42638342/cannot-install-opencv-3-1-0-with-python3-cmake-not-including-or-linking-python
+Also see https://stackoverflow.com/questions/42638342/cannot-install-opencv-3-1-0-with-python3-cmake-not-including-or-linking-python
 
 ```
 #cmake {...} -D CMAKE_BUILD_TYPE=RELEASE \
