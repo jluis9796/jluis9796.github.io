@@ -518,6 +518,11 @@ ModuleNotFoundError: No module named 'defusedxml'
 (ros_catkin_ws) azureuser@FreeUbuntuVM:/amidachi/ros_catkin_ws$ pip install defusedxml
 ```
 
+ModuleNotFoundError: No module named 'netifaces'
+```
+(ros_catkin_ws) azureuser@FreeUbuntuVM:/amidachi/ros_catkin_ws$ pip install netifaces
+```
+
 ## Installation steps
 Create root folder and source folder
 ```
