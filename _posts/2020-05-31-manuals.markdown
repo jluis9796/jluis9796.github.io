@@ -508,6 +508,11 @@ AttributeError: module 'em' has no attribute 'Interpreter'
 (pipenv-system)$ pip install empy
 ```
 
+ModuleNotFoundError: No module named 'numpy'
+```
+(pipenv-system)$ pip install numpy
+```
+
 ## Installation steps
 Create root folder and source folder
 ```
