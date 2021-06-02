@@ -640,6 +640,31 @@ $ source /etc/ros/env.sh
 ```
 
 
+Note 1
+In case is necessary, install the modules
+```
+  873  pipenv install pycryptodomex
+  875  pipenv install gnupg
+ ```
+ 
+Note 2
+If you get the following error when running rostopic
+ ```
+(ros_catkin_ws) azureuser@FreeUbuntuVM:/amidachi/ros_catkin_ws$ rostopic list
+Failed to load Python extension for LZ4 support. LZ4 compression will not be available.
+ ```
+and you confirm this problem by trying to import _roslz4
+ ```
+$ python -c "from _roslz4 import *"
+...
+ImportError: libpython3.8.so.1.0: cannot open shared object file: No such file or directory
+ ```
+Then, you should check the path to libpython and add it to the LD_LIBRARY_PATH
+ ```
+  $ export LD_LIBRARY_PATH=/home/azureuser/.pyenv/versions/3.8.9/lib:$LD_LIBRARY_PATH
+  $ echo $LD_LIBRARY_PATH
+```
+
 ## Add audio support (audio_commons)
 http://wiki.ros.org/audio_common/Tutorials/Streaming%20audio
 http://wiki.ros.org/audio_common/Tutorials/Remotely%20listening%20through%20robot%20ears
