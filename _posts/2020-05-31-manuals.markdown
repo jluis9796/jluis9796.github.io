@@ -633,6 +633,13 @@ $ sudo systemctl enable roslaunch.service
 $ sudo chmod +x /usr/sbin/roslaunch
 ```
 
+## How to load rostopic in shell
+```
+$ source install_isolated/setup.sh
+$ source /etc/ros/env.sh
+```
+
+
 ## Add audio support (audio_commons)
 http://wiki.ros.org/audio_common/Tutorials/Streaming%20audio
 http://wiki.ros.org/audio_common/Tutorials/Remotely%20listening%20through%20robot%20ears
