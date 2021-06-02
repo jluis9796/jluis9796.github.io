@@ -794,6 +794,12 @@ Package certificates into one file (Convenient for openvpn app)
 # vim client.ovpn
 ```
 
+Initialize openvpn client in ubuntu server
+```
+$ sudo systemctl enable openvpn@client
+$ sudo systemctl start openvpn@client
+```
+
 Check status of openvpn and connections
 ```
 # sudo tail -f /var/log/openvpn-status.log
