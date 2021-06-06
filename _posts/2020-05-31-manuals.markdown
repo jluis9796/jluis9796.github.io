@@ -523,6 +523,12 @@ ModuleNotFoundError: No module named 'netifaces'
 (ros_catkin_ws) azureuser@FreeUbuntuVM:/amidachi/ros_catkin_ws$ pip install netifaces
 ```
 
+# To build only one package
+```
+$ cd /amidachi/catkin_ws
+$ sudo ./src/catkin/bin/catkin_make_isolated --pkg amidachi_publisher --source src -DCMAKE_BUILD_TYPE=Release
+```
+
 ## Installation steps
 Create root folder and source folder
 ```
