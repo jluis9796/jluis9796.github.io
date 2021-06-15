@@ -706,6 +706,12 @@ $ arecord -f s16_le -D hw:1,0 -d 20 /home/pi/test.wav
 $ aplay -f s16_le /home/pi/test.wav
 ```
 
+The service is setup to run at start. Check the files below
+```
+vim /etc/systemd/system/publish_audio.service
+pi@raspberrypizero2:/amidachi/catkin_ws $ vim /usr/sbin/publish_audio
+```
+
 ## Setup usb-microphone
 https://www.raspberrypi-spy.co.uk/2019/06/using-a-usb-audio-device-with-the-raspberry-pi/
 
