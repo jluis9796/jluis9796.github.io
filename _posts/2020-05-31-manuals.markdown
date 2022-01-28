@@ -17,6 +17,9 @@ https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 ## Add new repository, add files, commit and push (The repo needs to be created in github.com)
 ```
+Create ssh key
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
 Add repository
 $ git init
 $ git remote add origin https://github.com/<yourusername>/<reponame>.git
